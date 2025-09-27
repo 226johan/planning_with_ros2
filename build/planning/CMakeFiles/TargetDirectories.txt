@@ -61,6 +61,8 @@
 /home/johan/planning_with_ROS2_course/build/planning/src/planning_process/CMakeFiles/install.dir
 /home/johan/planning_with_ROS2_course/build/planning/src/planning_process/CMakeFiles/install/local.dir
 /home/johan/planning_with_ROS2_course/build/planning/src/planning_process/CMakeFiles/install/strip.dir
+/home/johan/planning_with_ROS2_course/build/planning/src/move_cmd/CMakeFiles/car_move_cmd.dir
+/home/johan/planning_with_ROS2_course/build/planning/src/move_cmd/CMakeFiles/obj_move_cmd.dir
 /home/johan/planning_with_ROS2_course/build/planning/src/move_cmd/CMakeFiles/test.dir
 /home/johan/planning_with_ROS2_course/build/planning/src/move_cmd/CMakeFiles/edit_cache.dir
 /home/johan/planning_with_ROS2_course/build/planning/src/move_cmd/CMakeFiles/rebuild_cache.dir

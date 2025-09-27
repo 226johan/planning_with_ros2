@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"src/planning_process/CMakeLists.txt"
+			"src/decision_center/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -17,7 +17,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 35,
+				"line" : 32,
 				"parent" : 0
 			}
 		]
@@ -27,19 +27,19 @@
 		{
 			"backtrace" : 1,
 			"component" : "Unspecified",
-			"destination" : "lib/planning",
+			"destination" : "lib",
 			"paths" : 
 			[
-				"src/planning_process/planning_node"
+				"src/decision_center/libdecision_center.so"
 			],
-			"targetId" : "planning_node::@7f6d08f3b5f751c4407d",
-			"targetIndex" : 4,
+			"targetId" : "decision_center::@1bcb7a886c079bd84f43",
+			"targetIndex" : 2,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "src/planning_process",
-		"source" : "src/planning_process"
+		"build" : "src/decision_center",
+		"source" : "src/decision_center"
 	}
 }

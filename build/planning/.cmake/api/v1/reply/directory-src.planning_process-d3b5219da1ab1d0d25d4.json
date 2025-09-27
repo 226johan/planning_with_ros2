@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"src/local_planner/CMakeLists.txt"
+			"src/planning_process/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -17,7 +17,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 39,
+				"line" : 35,
 				"parent" : 0
 			}
 		]
@@ -27,19 +27,19 @@
 		{
 			"backtrace" : 1,
 			"component" : "Unspecified",
-			"destination" : "lib",
+			"destination" : "lib/planning",
 			"paths" : 
 			[
-				"src/local_planner/liblocal_planner.so"
+				"src/planning_process/planning_node"
 			],
-			"targetId" : "local_planner::@cdee42f20af7897c9c84",
-			"targetIndex" : 2,
+			"targetId" : "planning_node::@7f6d08f3b5f751c4407d",
+			"targetIndex" : 6,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "src/local_planner",
-		"source" : "src/local_planner"
+		"build" : "src/planning_process",
+		"source" : "src/planning_process"
 	}
 }

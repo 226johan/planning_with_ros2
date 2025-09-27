@@ -13,9 +13,35 @@ set(DEPENDS
 
 
 # 添加节点
+add_executable(car_move_cmd
+  ${CMAKE_CURRENT_SOURCE_DIR}/car_move_cmd.cpp
+)
 
+add_executable(obj_move_cmd
+  ${CMAKE_CURRENT_SOURCE_DIR}/obj_move_cmd.cpp
+)
+
+set(MOVE_TARGETS
+  car_move_cmd
+  obj_move_cmd
+)
 # 添加依赖
+foreach(target ${MOVE_TARGETS})
+  ament_target_dependencies(${target}
+  ${DEPENDS}
+  )
+
+  # target_link_libraries(${target}
+  #   config_reader
+  #   vechicle_info
+  # )
+  
+endforeach()
+
+
 
 # 安装动态奎、节点和相关目录
-
+install(TARGETS
+  ${MOVE_TARGETS}
+  DESTINATION lib/${PLANNING_PACKAGE_NAME})
 

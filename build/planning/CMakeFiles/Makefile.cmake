@@ -916,4 +916,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/decision_center/CMakeFiles/decision_center.dir/DependInfo.cmake"
   "src/local_planner/CMakeFiles/local_planner.dir/DependInfo.cmake"
   "src/planning_process/CMakeFiles/planning_node.dir/DependInfo.cmake"
+  "src/move_cmd/CMakeFiles/car_move_cmd.dir/DependInfo.cmake"
+  "src/move_cmd/CMakeFiles/obj_move_cmd.dir/DependInfo.cmake"
   )

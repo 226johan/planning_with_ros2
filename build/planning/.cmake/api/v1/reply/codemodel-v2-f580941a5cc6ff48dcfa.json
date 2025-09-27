@@ -27,14 +27,14 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						5,
-						6
+						7,
+						8
 					]
 				},
 				{
 					"build" : "src/common",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-src.common-b1cf54529c95939edf39.json",
+					"jsonFile" : "directory-src.common-a1faeaaf7971492c10a9.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.22"
@@ -44,14 +44,14 @@
 					"source" : "src/common",
 					"targetIndexes" : 
 					[
-						0,
-						3
+						1,
+						4
 					]
 				},
 				{
 					"build" : "src/decision_center",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-src.decision_center-928bc9934850435fff7e.json",
+					"jsonFile" : "directory-src.decision_center-07f97d9ce6ee98386ea9.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.22"
@@ -61,7 +61,7 @@
 					"source" : "src/decision_center",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -78,7 +78,7 @@
 				{
 					"build" : "src/local_planner",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-src.local_planner-4f657b59091d762453a1.json",
+					"jsonFile" : "directory-src.local_planner-10c64d7539a865cd86d7.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.22"
@@ -88,7 +88,7 @@
 					"source" : "src/local_planner",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -116,7 +116,7 @@
 				{
 					"build" : "src/planning_process",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-src.planning_process-c57d55fd31820328a192.json",
+					"jsonFile" : "directory-src.planning_process-d3b5219da1ab1d0d25d4.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.22"
@@ -126,19 +126,25 @@
 					"source" : "src/planning_process",
 					"targetIndexes" : 
 					[
-						4
+						6
 					]
 				},
 				{
 					"build" : "src/move_cmd",
-					"jsonFile" : "directory-src.move_cmd-b681391cde4a19edb786.json",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.move_cmd-0dc056d07735d34a011a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.22"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 8,
-					"source" : "src/move_cmd"
+					"source" : "src/move_cmd",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
 				}
 			],
 			"name" : "",
@@ -163,8 +169,8 @@
 					"name" : "planning",
 					"targetIndexes" : 
 					[
-						5,
-						6
+						7,
+						8
 					]
 				},
 				{
@@ -176,8 +182,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						0,
-						3
+						1,
+						4
 					]
 				},
 				{
@@ -189,7 +195,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -209,7 +215,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -237,7 +243,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						4
+						6
 					]
 				},
 				{
@@ -246,11 +252,23 @@
 						8
 					],
 					"name" : "move_cmd",
-					"parentIndex" : 0
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 8,
+					"id" : "car_move_cmd::@cec872b6cd75951f118b",
+					"jsonFile" : "target-car_move_cmd-c3b4786219f5c9cf6f95.json",
+					"name" : "car_move_cmd",
+					"projectIndex" : 8
+				},
 				{
 					"directoryIndex" : 1,
 					"id" : "config_reader::@af79f3804eddddbfa7f1",
@@ -278,6 +296,13 @@
 					"jsonFile" : "target-mathlibs-7aeb29388745070cfef9.json",
 					"name" : "mathlibs",
 					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "obj_move_cmd::@cec872b6cd75951f118b",
+					"jsonFile" : "target-obj_move_cmd-b81594d6738d83f0dd75.json",
+					"name" : "obj_move_cmd",
+					"projectIndex" : 8
 				},
 				{
 					"directoryIndex" : 7,

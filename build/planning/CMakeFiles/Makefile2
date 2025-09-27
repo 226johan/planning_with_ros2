@@ -148,7 +148,8 @@ src/local_planner/clean: src/local_planner/CMakeFiles/local_planner.dir/clean
 # Directory level rules for directory src/move_cmd
 
 # Recursive "all" directory target.
-src/move_cmd/all:
+src/move_cmd/all: src/move_cmd/CMakeFiles/car_move_cmd.dir/all
+src/move_cmd/all: src/move_cmd/CMakeFiles/obj_move_cmd.dir/all
 .PHONY : src/move_cmd/all
 
 # Recursive "preinstall" directory target.
@@ -156,7 +157,8 @@ src/move_cmd/preinstall:
 .PHONY : src/move_cmd/preinstall
 
 # Recursive "clean" directory target.
-src/move_cmd/clean:
+src/move_cmd/clean: src/move_cmd/CMakeFiles/car_move_cmd.dir/clean
+src/move_cmd/clean: src/move_cmd/CMakeFiles/obj_move_cmd.dir/clean
 .PHONY : src/move_cmd/clean
 
 #=============================================================================
@@ -278,7 +280,7 @@ CMakeFiles/planning_uninstall.dir/clean:
 src/common/CMakeFiles/config_reader.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/common/CMakeFiles/config_reader.dir/build.make src/common/CMakeFiles/config_reader.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/common/CMakeFiles/config_reader.dir/build.make src/common/CMakeFiles/config_reader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=1,2 "Built target config_reader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=3,4 "Built target config_reader"
 .PHONY : src/common/CMakeFiles/config_reader.dir/all
 
 # Build rule for subdir invocation for target.
@@ -304,7 +306,7 @@ src/common/CMakeFiles/config_reader.dir/clean:
 src/common/CMakeFiles/mathlibs.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/common/CMakeFiles/mathlibs.dir/build.make src/common/CMakeFiles/mathlibs.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/common/CMakeFiles/mathlibs.dir/build.make src/common/CMakeFiles/mathlibs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=11,12,13 "Built target mathlibs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=13,14,15 "Built target mathlibs"
 .PHONY : src/common/CMakeFiles/mathlibs.dir/all
 
 # Build rule for subdir invocation for target.
@@ -330,7 +332,7 @@ src/common/CMakeFiles/mathlibs.dir/clean:
 src/decision_center/CMakeFiles/decision_center.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/decision_center/CMakeFiles/decision_center.dir/build.make src/decision_center/CMakeFiles/decision_center.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/decision_center/CMakeFiles/decision_center.dir/build.make src/decision_center/CMakeFiles/decision_center.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=3,4 "Built target decision_center"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=5,6 "Built target decision_center"
 .PHONY : src/decision_center/CMakeFiles/decision_center.dir/all
 
 # Build rule for subdir invocation for target.
@@ -356,7 +358,7 @@ src/decision_center/CMakeFiles/decision_center.dir/clean:
 src/local_planner/CMakeFiles/local_planner.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/local_planner/CMakeFiles/local_planner.dir/build.make src/local_planner/CMakeFiles/local_planner.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/local_planner/CMakeFiles/local_planner.dir/build.make src/local_planner/CMakeFiles/local_planner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=5,6,7,8,9,10 "Built target local_planner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=7,8,9,10,11,12 "Built target local_planner"
 .PHONY : src/local_planner/CMakeFiles/local_planner.dir/all
 
 # Build rule for subdir invocation for target.
@@ -382,7 +384,7 @@ src/local_planner/CMakeFiles/local_planner.dir/clean:
 src/planning_process/CMakeFiles/planning_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=14,15,16 "Built target planning_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=18,19,20 "Built target planning_node"
 .PHONY : src/planning_process/CMakeFiles/planning_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -400,6 +402,58 @@ planning_node: src/planning_process/CMakeFiles/planning_node.dir/rule
 src/planning_process/CMakeFiles/planning_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/clean
 .PHONY : src/planning_process/CMakeFiles/planning_node.dir/clean
+
+#=============================================================================
+# Target rules for target src/move_cmd/CMakeFiles/car_move_cmd.dir
+
+# All Build rule for target.
+src/move_cmd/CMakeFiles/car_move_cmd.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/move_cmd/CMakeFiles/car_move_cmd.dir/build.make src/move_cmd/CMakeFiles/car_move_cmd.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/move_cmd/CMakeFiles/car_move_cmd.dir/build.make src/move_cmd/CMakeFiles/car_move_cmd.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=1,2 "Built target car_move_cmd"
+.PHONY : src/move_cmd/CMakeFiles/car_move_cmd.dir/all
+
+# Build rule for subdir invocation for target.
+src/move_cmd/CMakeFiles/car_move_cmd.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/move_cmd/CMakeFiles/car_move_cmd.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 0
+.PHONY : src/move_cmd/CMakeFiles/car_move_cmd.dir/rule
+
+# Convenience name for target.
+car_move_cmd: src/move_cmd/CMakeFiles/car_move_cmd.dir/rule
+.PHONY : car_move_cmd
+
+# clean rule for target.
+src/move_cmd/CMakeFiles/car_move_cmd.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/move_cmd/CMakeFiles/car_move_cmd.dir/build.make src/move_cmd/CMakeFiles/car_move_cmd.dir/clean
+.PHONY : src/move_cmd/CMakeFiles/car_move_cmd.dir/clean
+
+#=============================================================================
+# Target rules for target src/move_cmd/CMakeFiles/obj_move_cmd.dir
+
+# All Build rule for target.
+src/move_cmd/CMakeFiles/obj_move_cmd.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/move_cmd/CMakeFiles/obj_move_cmd.dir/build.make src/move_cmd/CMakeFiles/obj_move_cmd.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/move_cmd/CMakeFiles/obj_move_cmd.dir/build.make src/move_cmd/CMakeFiles/obj_move_cmd.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=16,17 "Built target obj_move_cmd"
+.PHONY : src/move_cmd/CMakeFiles/obj_move_cmd.dir/all
+
+# Build rule for subdir invocation for target.
+src/move_cmd/CMakeFiles/obj_move_cmd.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/move_cmd/CMakeFiles/obj_move_cmd.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 0
+.PHONY : src/move_cmd/CMakeFiles/obj_move_cmd.dir/rule
+
+# Convenience name for target.
+obj_move_cmd: src/move_cmd/CMakeFiles/obj_move_cmd.dir/rule
+.PHONY : obj_move_cmd
+
+# clean rule for target.
+src/move_cmd/CMakeFiles/obj_move_cmd.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/move_cmd/CMakeFiles/obj_move_cmd.dir/build.make src/move_cmd/CMakeFiles/obj_move_cmd.dir/clean
+.PHONY : src/move_cmd/CMakeFiles/obj_move_cmd.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

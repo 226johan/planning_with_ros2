@@ -262,6 +262,32 @@ planning_node/fast:
 	$(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/build
 .PHONY : planning_node/fast
 
+#=============================================================================
+# Target rules for targets named car_move_cmd
+
+# Build rule for target.
+car_move_cmd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 car_move_cmd
+.PHONY : car_move_cmd
+
+# fast build rule for target.
+car_move_cmd/fast:
+	$(MAKE) $(MAKESILENT) -f src/move_cmd/CMakeFiles/car_move_cmd.dir/build.make src/move_cmd/CMakeFiles/car_move_cmd.dir/build
+.PHONY : car_move_cmd/fast
+
+#=============================================================================
+# Target rules for targets named obj_move_cmd
+
+# Build rule for target.
+obj_move_cmd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 obj_move_cmd
+.PHONY : obj_move_cmd
+
+# fast build rule for target.
+obj_move_cmd/fast:
+	$(MAKE) $(MAKESILENT) -f src/move_cmd/CMakeFiles/obj_move_cmd.dir/build.make src/move_cmd/CMakeFiles/obj_move_cmd.dir/build
+.PHONY : obj_move_cmd/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -277,10 +303,12 @@ help:
 	@echo "... test"
 	@echo "... planning_uninstall"
 	@echo "... uninstall"
+	@echo "... car_move_cmd"
 	@echo "... config_reader"
 	@echo "... decision_center"
 	@echo "... local_planner"
 	@echo "... mathlibs"
+	@echo "... obj_move_cmd"
 	@echo "... planning_node"
 .PHONY : help
 
