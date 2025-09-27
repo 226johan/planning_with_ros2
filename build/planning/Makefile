@@ -198,6 +198,58 @@ planning_uninstall/fast:
 .PHONY : planning_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named config_reader
+
+# Build rule for target.
+config_reader: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 config_reader
+.PHONY : config_reader
+
+# fast build rule for target.
+config_reader/fast:
+	$(MAKE) $(MAKESILENT) -f src/common/CMakeFiles/config_reader.dir/build.make src/common/CMakeFiles/config_reader.dir/build
+.PHONY : config_reader/fast
+
+#=============================================================================
+# Target rules for targets named mathlibs
+
+# Build rule for target.
+mathlibs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mathlibs
+.PHONY : mathlibs
+
+# fast build rule for target.
+mathlibs/fast:
+	$(MAKE) $(MAKESILENT) -f src/common/CMakeFiles/mathlibs.dir/build.make src/common/CMakeFiles/mathlibs.dir/build
+.PHONY : mathlibs/fast
+
+#=============================================================================
+# Target rules for targets named decision_center
+
+# Build rule for target.
+decision_center: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 decision_center
+.PHONY : decision_center
+
+# fast build rule for target.
+decision_center/fast:
+	$(MAKE) $(MAKESILENT) -f src/decision_center/CMakeFiles/decision_center.dir/build.make src/decision_center/CMakeFiles/decision_center.dir/build
+.PHONY : decision_center/fast
+
+#=============================================================================
+# Target rules for targets named local_planner
+
+# Build rule for target.
+local_planner: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 local_planner
+.PHONY : local_planner
+
+# fast build rule for target.
+local_planner/fast:
+	$(MAKE) $(MAKESILENT) -f src/local_planner/CMakeFiles/local_planner.dir/build.make src/local_planner/CMakeFiles/local_planner.dir/build
+.PHONY : local_planner/fast
+
+#=============================================================================
 # Target rules for targets named planning_node
 
 # Build rule for target.
@@ -225,6 +277,10 @@ help:
 	@echo "... test"
 	@echo "... planning_uninstall"
 	@echo "... uninstall"
+	@echo "... config_reader"
+	@echo "... decision_center"
+	@echo "... local_planner"
+	@echo "... mathlibs"
 	@echo "... planning_node"
 .PHONY : help
 

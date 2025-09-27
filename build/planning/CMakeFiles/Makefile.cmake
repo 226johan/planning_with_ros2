@@ -911,5 +911,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/planning_uninstall.dir/DependInfo.cmake"
+  "src/common/CMakeFiles/config_reader.dir/DependInfo.cmake"
+  "src/common/CMakeFiles/mathlibs.dir/DependInfo.cmake"
+  "src/decision_center/CMakeFiles/decision_center.dir/DependInfo.cmake"
+  "src/local_planner/CMakeFiles/local_planner.dir/DependInfo.cmake"
   "src/planning_process/CMakeFiles/planning_node.dir/DependInfo.cmake"
   )

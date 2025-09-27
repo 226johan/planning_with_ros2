@@ -1,3 +1,7 @@
+/home/johan/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so
+/home/johan/planning_with_ROS2_course/install/planning/lib/libmathlibs.so
+/home/johan/planning_with_ROS2_course/install/planning/lib/libdecision_center.so
+/home/johan/planning_with_ROS2_course/install/planning/lib/liblocal_planner.so
 /home/johan/planning_with_ROS2_course/install/planning/lib/planning/planning_node
 /home/johan/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
 /home/johan/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
