@@ -1,5 +1,5 @@
-src/planning_process/CMakeFiles/planning_node.dir/planning_node.cpp.o: \
- /home/johan/planning_with_ROS2_course/src/planning/src/planning_process/planning_node.cpp \
+src/planning_process/CMakeFiles/planning_node.dir/planning_process.cpp.o: \
+ /home/johan/planning_with_ROS2_course/src/planning/src/planning_process/planning_process.cpp \
  /usr/include/stdc-predef.h \
  /home/johan/planning_with_ROS2_course/src/planning/src/planning_process/planning_process.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \

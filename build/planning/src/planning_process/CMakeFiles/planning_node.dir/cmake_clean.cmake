@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/planning_node.dir/planning_node.cpp.o"
   "CMakeFiles/planning_node.dir/planning_node.cpp.o.d"
+  "CMakeFiles/planning_node.dir/planning_process.cpp.o"
+  "CMakeFiles/planning_node.dir/planning_process.cpp.o.d"
   "planning_node"
   "planning_node.pdb"
 )

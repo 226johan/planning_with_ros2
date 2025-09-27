@@ -15,6 +15,7 @@ set(DEPENDS
 # 添加节点
 add_executable(planning_node
   ${CMAKE_CURRENT_SOURCE_DIR}/planning_node.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/planning_process.cpp
 )
 
 set(target

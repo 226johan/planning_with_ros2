@@ -276,12 +276,12 @@ CMakeFiles/planning_uninstall.dir/clean:
 src/planning_process/CMakeFiles/planning_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=1,2 "Built target planning_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=1,2,3 "Built target planning_node"
 .PHONY : src/planning_process/CMakeFiles/planning_node.dir/all
 
 # Build rule for subdir invocation for target.
 src/planning_process/CMakeFiles/planning_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/planning_process/CMakeFiles/planning_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 0
 .PHONY : src/planning_process/CMakeFiles/planning_node.dir/rule

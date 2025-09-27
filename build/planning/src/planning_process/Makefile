@@ -209,6 +209,30 @@ planning_node.cpp.s:
 	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/planning_node.cpp.s
 .PHONY : planning_node.cpp.s
 
+planning_process.o: planning_process.cpp.o
+.PHONY : planning_process.o
+
+# target to build an object file
+planning_process.cpp.o:
+	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/planning_process.cpp.o
+.PHONY : planning_process.cpp.o
+
+planning_process.i: planning_process.cpp.i
+.PHONY : planning_process.i
+
+# target to preprocess a source file
+planning_process.cpp.i:
+	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/planning_process.cpp.i
+.PHONY : planning_process.cpp.i
+
+planning_process.s: planning_process.cpp.s
+.PHONY : planning_process.s
+
+# target to generate assembly for a file
+planning_process.cpp.s:
+	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/planning_process.cpp.s
+.PHONY : planning_process.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -226,6 +250,9 @@ help:
 	@echo "... planning_node.o"
 	@echo "... planning_node.i"
 	@echo "... planning_node.s"
+	@echo "... planning_process.o"
+	@echo "... planning_process.i"
+	@echo "... planning_process.s"
 .PHONY : help
 
 
