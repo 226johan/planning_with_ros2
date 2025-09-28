@@ -237,6 +237,32 @@ decision_center/fast:
 .PHONY : decision_center/fast
 
 #=============================================================================
+# Target rules for targets named pnc_map_creator
+
+# Build rule for target.
+pnc_map_creator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pnc_map_creator
+.PHONY : pnc_map_creator
+
+# fast build rule for target.
+pnc_map_creator/fast:
+	$(MAKE) $(MAKESILENT) -f src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/build.make src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/build
+.PHONY : pnc_map_creator/fast
+
+#=============================================================================
+# Target rules for targets named pnc_map_server
+
+# Build rule for target.
+pnc_map_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pnc_map_server
+.PHONY : pnc_map_server
+
+# fast build rule for target.
+pnc_map_server/fast:
+	$(MAKE) $(MAKESILENT) -f src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/build.make src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/build
+.PHONY : pnc_map_server/fast
+
+#=============================================================================
 # Target rules for targets named local_planner
 
 # Build rule for target.
@@ -248,6 +274,32 @@ local_planner: cmake_check_build_system
 local_planner/fast:
 	$(MAKE) $(MAKESILENT) -f src/local_planner/CMakeFiles/local_planner.dir/build.make src/local_planner/CMakeFiles/local_planner.dir/build
 .PHONY : local_planner/fast
+
+#=============================================================================
+# Target rules for targets named reference_line
+
+# Build rule for target.
+reference_line: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reference_line
+.PHONY : reference_line
+
+# fast build rule for target.
+reference_line/fast:
+	$(MAKE) $(MAKESILENT) -f src/reference_line/CMakeFiles/reference_line.dir/build.make src/reference_line/CMakeFiles/reference_line.dir/build
+.PHONY : reference_line/fast
+
+#=============================================================================
+# Target rules for targets named vehicle_info
+
+# Build rule for target.
+vehicle_info: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vehicle_info
+.PHONY : vehicle_info
+
+# fast build rule for target.
+vehicle_info/fast:
+	$(MAKE) $(MAKESILENT) -f src/vehicle_info/CMakeFiles/vehicle_info.dir/build.make src/vehicle_info/CMakeFiles/vehicle_info.dir/build
+.PHONY : vehicle_info/fast
 
 #=============================================================================
 # Target rules for targets named planning_node
@@ -310,6 +362,10 @@ help:
 	@echo "... mathlibs"
 	@echo "... obj_move_cmd"
 	@echo "... planning_node"
+	@echo "... pnc_map_creator"
+	@echo "... pnc_map_server"
+	@echo "... reference_line"
+	@echo "... vehicle_info"
 .PHONY : help
 
 

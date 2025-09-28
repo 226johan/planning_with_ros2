@@ -1,0 +1,55 @@
+[  6%] Built target config_reader
+[ 12%] Built target decision_center
+[ 22%] Built target mathlibs
+[ 41%] Built target local_planner
+[ 54%] Built target obj_move_cmd
+[ 54%] Built target car_move_cmd
+[ 64%] Built target planning_node
+[ 83%] Built target reference_line
+[ 83%] Built target pnc_map_creator
+[ 93%] Built target vehicle_info
+[100%] Built target pnc_map_server
+-- Install configuration: ""
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so
+-- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so" to ""
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/libmathlibs.so
+-- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/libmathlibs.so" to ""
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/libdecision_center.so
+-- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/libdecision_center.so" to ""
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/bin/pnc_map_server
+-- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/bin/pnc_map_server" to ""
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/planning/pnc_map_server
+-- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/planning/pnc_map_server" to ""
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/liblocal_planner.so
+-- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/liblocal_planner.so" to ""
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/libreference_line.so
+-- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/libreference_line.so" to ""
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/libvehicle_info.so
+-- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/libvehicle_info.so" to ""
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/planning/planning_node
+-- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/planning/planning_node" to ""
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/planning/car_move_cmd
+-- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/planning/car_move_cmd" to ""
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/planning/obj_move_cmd
+-- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/planning/obj_move_cmd" to ""
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/config
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/rviz
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/launch
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/obs_car
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/main_car
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.sh
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.dsv
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/environment/path.sh
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/environment/path.dsv
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/local_setup.bash
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/local_setup.sh
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/local_setup.zsh
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/local_setup.dsv
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/package.dsv
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/packages/planning
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig.cmake
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig-version.cmake
+-- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/package.xml

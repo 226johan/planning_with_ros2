@@ -1,7 +1,11 @@
 /home/johan/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so
 /home/johan/planning_with_ROS2_course/install/planning/lib/libmathlibs.so
 /home/johan/planning_with_ROS2_course/install/planning/lib/libdecision_center.so
+/home/johan/planning_with_ROS2_course/install/planning/bin/pnc_map_server
+/home/johan/planning_with_ROS2_course/install/planning/lib/planning/pnc_map_server
 /home/johan/planning_with_ROS2_course/install/planning/lib/liblocal_planner.so
+/home/johan/planning_with_ROS2_course/install/planning/lib/libreference_line.so
+/home/johan/planning_with_ROS2_course/install/planning/lib/libvehicle_info.so
 /home/johan/planning_with_ROS2_course/install/planning/lib/planning/planning_node
 /home/johan/planning_with_ROS2_course/install/planning/lib/planning/car_move_cmd
 /home/johan/planning_with_ROS2_course/install/planning/lib/planning/obj_move_cmd

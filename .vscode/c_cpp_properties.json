@@ -12,7 +12,13 @@
                 "/home/johan/planning_with_ROS2_course/src/planning/include/**",
                 "/usr/include/**",
                 "${workspaceFolder}/src/planning/src/global_planner",
-                "/opt/ros/humble/include/builtin_interfaces"
+                "/opt/ros/humble/include/builtin_interfaces",
+                "${workspaceFolder}/src/planning/src/pnc_map_creator",
+                "${workspaceFolder}/src/planning/src/vehicle_info",
+                "${workspaceFolder}/src/planning/src/common/config_reader",
+                "${workspaceFolder}/src/planning/src/global_planner/global_planner_normal",
+                "${workspaceFolder}/src/planning/src/common/math",
+                "${workspaceFolder}/src/planning/src/decision_center"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

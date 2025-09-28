@@ -1,0 +1,8 @@
+[31mCMake Error at src/reference_line/CMakeLists.txt:15 (add_library):
+  Target "reference_line" links to target "OsqpEigen::QsqpEigen" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:352：cmake_check_build_system] 错误 1

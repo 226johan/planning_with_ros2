@@ -1369,8 +1369,430 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /usr/local/include/eigen3/Eigen/Dense \
+  /usr/local/include/eigen3/Eigen/Core \
+  /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Macros.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
+  /usr/include/c++/11/complex \
+  /usr/local/include/eigen3/Eigen/src/Core/util/MKL_support.h \
+  /usr/include/c++/11/cstddef \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Constants.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Meta.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/StaticAssert.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/XprHelper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Memory.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/IntegralConstant.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NumTraits.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MathFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GenericPacketMath.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Half.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/StlFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ArithmeticSequence.h \
+  /usr/local/include/eigen3/Eigen/src/Core/IO.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseBase.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/BlockMethods.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/ReshapedMethods.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/ReshapedMethods.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MatrixBase.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/Core/EigenBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Product.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Assign.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ArrayBase.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/BlasUtil.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NestByValue.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ReturnByValue.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NoAlias.h \
+  /usr/local/include/eigen3/Eigen/src/Core/PlainObjectBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Matrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Array.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryView.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Dot.h \
+  /usr/local/include/eigen3/Eigen/src/Core/StableNorm.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Stride.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MapBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Map.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Ref.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Block.h \
+  /usr/local/include/eigen3/Eigen/src/Core/VectorBlock.h \
+  /usr/local/include/eigen3/Eigen/src/Core/IndexedView.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Reshaped.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Transpose.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DiagonalMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Diagonal.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DiagonalProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Redux.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Visitor.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Fuzzy.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Swap.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CommaInitializer.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GeneralProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Solve.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Inverse.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SolverBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/PermutationMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Transpositions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/TriangularMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SelfAdjointView.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/Parallelizer.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ProductEvaluators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SolveTriangular.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/BandMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CoreIterators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ConditionEstimator.h \
+  /usr/local/include/eigen3/Eigen/src/Core/BooleanRedux.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Select.h \
+  /usr/local/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Random.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Replicate.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Reverse.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ArrayWrapper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/StlIterators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /usr/local/include/eigen3/Eigen/LU \
+  /usr/local/include/eigen3/Eigen/src/misc/Kernel.h \
+  /usr/local/include/eigen3/Eigen/src/misc/Image.h \
+  /usr/local/include/eigen3/Eigen/src/LU/FullPivLU.h \
+  /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h \
+  /usr/local/include/eigen3/Eigen/src/LU/Determinant.h \
+  /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h \
+  /usr/local/include/eigen3/Eigen/src/LU/arch/InverseSize4.h \
+  /usr/local/include/eigen3/Eigen/Cholesky \
+  /usr/local/include/eigen3/Eigen/Jacobi \
+  /usr/local/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
+  /usr/local/include/eigen3/Eigen/src/Cholesky/LLT.h \
+  /usr/local/include/eigen3/Eigen/src/Cholesky/LDLT.h \
+  /usr/local/include/eigen3/Eigen/QR \
+  /usr/local/include/eigen3/Eigen/Householder \
+  /usr/local/include/eigen3/Eigen/src/Householder/Householder.h \
+  /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h \
+  /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h \
+  /usr/local/include/eigen3/Eigen/src/QR/HouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+  /usr/local/include/eigen3/Eigen/SVD \
+  /usr/local/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/SVDBase.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/BDCSVD.h \
+  /usr/local/include/eigen3/Eigen/Geometry \
+  /usr/local/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/EulerAngles.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Homogeneous.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/RotationBase.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Rotation2D.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/AngleAxis.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Scaling.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Hyperplane.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
+  /usr/local/include/eigen3/Eigen/Eigenvalues \
+  /usr/local/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/local/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/local/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/local/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
+  /usr/local/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/local/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+  /usr/local/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/local/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+  /usr/local/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/local/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/local/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+  /usr/local/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/local/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/local/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+  /usr/local/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/local/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
 
+
+/usr/local/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h:
+
+/usr/local/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
+
+/usr/local/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
+
+/usr/local/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h:
+
+/usr/local/include/eigen3/Eigen/src/Geometry/Hyperplane.h:
+
+/usr/local/include/eigen3/Eigen/src/Geometry/Translation.h:
+
+/usr/local/include/eigen3/Eigen/src/Geometry/AngleAxis.h:
+
+/usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h:
+
+/usr/local/include/eigen3/Eigen/src/Geometry/Rotation2D.h:
+
+/usr/local/include/eigen3/Eigen/src/Geometry/Homogeneous.h:
+
+/usr/local/include/eigen3/Eigen/src/SVD/BDCSVD.h:
+
+/usr/local/include/eigen3/Eigen/src/SVD/JacobiSVD.h:
+
+/usr/local/include/eigen3/Eigen/src/SVD/SVDBase.h:
+
+/usr/local/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
+
+/usr/local/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h:
+
+/usr/local/include/eigen3/Eigen/src/QR/HouseholderQR.h:
+
+/usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
+
+/usr/local/include/eigen3/Eigen/src/Householder/Householder.h:
+
+/usr/local/include/eigen3/Eigen/src/Cholesky/LDLT.h:
+
+/usr/local/include/eigen3/Eigen/src/Jacobi/Jacobi.h:
+
+/usr/local/include/eigen3/Eigen/Cholesky:
+
+/usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h:
+
+/usr/local/include/eigen3/Eigen/src/LU/Determinant.h:
+
+/usr/local/include/eigen3/Eigen/src/misc/Image.h:
+
+/usr/local/include/eigen3/Eigen/src/misc/Kernel.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/StlIterators.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Reverse.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/BooleanRedux.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/SolveTriangular.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/ProductEvaluators.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/products/Parallelizer.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/SolverBase.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Inverse.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Solve.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/GeneralProduct.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/CommaInitializer.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Fuzzy.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Visitor.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Transpose.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Reshaped.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/VectorBlock.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/MapBase.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/StableNorm.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Block.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryView.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:
+
+/usr/local/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h:
+
+/usr/local/include/eigen3/Eigen/Householder:
+
+/usr/local/include/eigen3/Eigen/src/Core/NestByValue.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Swap.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
+
+/usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h:
+
+/usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
+
+/usr/local/include/eigen3/Eigen/src/Geometry/Transform.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/TriangularMatrix.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
+
+/usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/CoreIterators.h:
+
+/usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/IO.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/NumTraits.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/XprHelper.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/Meta.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/local/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/local/include/eigen3/Eigen/LU:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/StaticAssert.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+
+/usr/include/c++/11/climits:
+
+/usr/include/c++/11/cstddef:
+
+/usr/local/include/eigen3/Eigen/src/Core/Redux.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
+
+/usr/local/include/eigen3/Eigen/Geometry:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:
+
+/usr/local/include/eigen3/Eigen/Core:
 
 /home/johan/planning_with_ROS2_course/src/planning/src/common/math/polynomial_curve.cpp:
 
@@ -1384,9 +1806,17 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp:
 
+/usr/include/limits.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/PlainObjectBase.h:
+
+/usr/local/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_event_handler.hpp:
 
@@ -1400,21 +1830,35 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Geometry/OrthoMethods.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h:
+
+/usr/local/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/Transpositions.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/functors/StlFunctors.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp:
 
@@ -1432,13 +1876,19 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp:
 
+/usr/local/include/eigen3/Eigen/Jacobi:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp:
+
+/usr/local/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:
 
@@ -1462,11 +1912,17 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp:
 
+/usr/local/include/eigen3/Eigen/src/LU/FullPivLU.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp:
+
+/usr/local/include/eigen3/Eigen/src/misc/RealSvd2x2.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
 
@@ -1475,6 +1931,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp:
 
@@ -1486,6 +1944,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
+
 /opt/ros/humble/include/rcutils/rcutils/shared_library.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp:
@@ -1493,6 +1953,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/Memory.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
 
@@ -1564,7 +2026,11 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/c++/11/pstl/execution_defs.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
+
 /usr/include/c++/11/bits/stl_algo.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
 
 /usr/include/c++/11/bits/move.h:
 
@@ -1602,6 +2068,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/c++/11/string_view:
 
+/usr/local/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /home/johan/planning_with_ROS2_course/src/planning/src/common/math/polynomial_curve.h:
@@ -1609,6 +2077,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/include/c++/11/numeric:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
@@ -1620,11 +2090,15 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/ctype.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/MatrixBase.h:
+
 /usr/include/c++/11/locale:
 
 /usr/include/c++/11/cctype:
 
 /usr/include/c++/11/iomanip:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
@@ -1649,6 +2123,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/include/c++/11/functional:
 
 /usr/include/asm-generic/errno-base.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/DenseBase.h:
 
 /opt/ros/humble/include/rmw/rmw/subscription_options.h:
 
@@ -1686,11 +2162,15 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h:
+
 /usr/include/c++/11/cstdint:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Ref.h:
 
 /usr/include/c++/11/cstdio:
 
@@ -1732,6 +2212,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/ReturnByValue.h:
+
 /usr/include/c++/11/tr1/legendre_function.tcc:
 
 /usr/include/c++/11/mutex:
@@ -1751,6 +2233,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/c++/11/typeindex:
+
+/usr/local/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
@@ -1772,7 +2256,11 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/c++/11/bits/erase_if.h:
 
+/usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
+
 /usr/include/stdint.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
 
 /usr/include/c++/11/bits/ptr_traits.h:
 
@@ -1806,6 +2294,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/c++/11/pstl/glue_memory_defs.h:
 
+/usr/local/include/eigen3/Eigen/src/Geometry/AlignedBox.h:
+
 /usr/include/c++/11/string:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
@@ -1827,6 +2317,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/include/strings.h:
 
 /usr/include/c++/11/bits/hashtable_policy.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h:
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
@@ -1850,6 +2342,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/x86_64-linux-gnu/bits/signum-generic.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp:
@@ -1865,6 +2359,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
 /usr/include/c++/11/ext/type_traits.h:
+
+/usr/local/include/eigen3/Eigen/Eigenvalues:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
 
@@ -1886,6 +2382,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
 /usr/include/c++/11/ctime:
@@ -1894,15 +2392,21 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
+
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
 
+/usr/local/include/eigen3/Eigen/SVD:
+
 /usr/include/c++/11/iosfwd:
 
 /usr/include/c++/11/initializer_list:
+
+/usr/local/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
 
 /usr/include/c++/11/system_error:
 
@@ -1936,6 +2440,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rmw/rmw/message_sequence.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/Diagonal.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
 
 /usr/include/features.h:
@@ -1952,6 +2458,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/Select.h:
+
 /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
@@ -1965,6 +2473,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
 
 /usr/include/c++/11/tr1/special_function_util.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
 
 /usr/include/c++/11/bits/shared_ptr.h:
 
@@ -1986,6 +2496,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
+/usr/local/include/eigen3/Eigen/src/Cholesky/LLT.h:
+
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
 
 /usr/include/c++/11/bits/allocator.h:
@@ -2004,6 +2516,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/c++/11/cstdlib:
 
+/usr/local/include/eigen3/Eigen/src/Core/EigenBase.h:
+
 /usr/include/c++/11/bits/basic_string.h:
 
 /usr/include/c++/11/bits/shared_ptr_base.h:
@@ -2017,6 +2531,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/c++/11/bits/predefined_ops.h:
+
+/usr/local/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
 
@@ -2040,6 +2556,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/pthread.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
+
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
@@ -2051,6 +2569,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/include/c++/11/bits/stl_pair.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
 
 /usr/include/c++/11/ext/atomicity.h:
 
@@ -2106,6 +2626,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/c++/11/tr1/beta_function.tcc:
 
+/usr/local/include/eigen3/Eigen/src/Core/IndexedView.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/c++/11/iterator:
@@ -2122,6 +2644,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/MathFunctions.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
@@ -2135,6 +2659,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/include/c++/11/bits/algorithmfwd.h:
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
 
 /usr/include/c++/11/vector:
 
@@ -2153,6 +2679,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/local/include/eigen3/Eigen/src/Geometry/Scaling.h:
 
 /usr/include/c++/11/cwchar:
 
@@ -2196,6 +2724,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/Stride.h:
+
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/c++/11/algorithm:
@@ -2205,6 +2735,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/include/c++/11/bits/string_view.tcc:
 
 /usr/include/c++/11/bits/stringfwd.h:
+
+/usr/local/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h:
 
 /usr/include/c++/11/bits/postypes.h:
 
@@ -2236,7 +2768,11 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/c++/11/bits/vector.tcc:
 
+/usr/local/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
+
 /usr/include/c++/11/cassert:
+
+/usr/local/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
 
 /usr/include/c++/11/ostream:
 
@@ -2264,6 +2800,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rclcpp/rclcpp/context.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
+
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
@@ -2271,6 +2809,10 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/include/c++/11/istream:
 
 /usr/include/c++/11/bits/istream.tcc:
+
+/usr/local/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
 
 /usr/include/c++/11/list:
 
@@ -2316,6 +2858,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
+
 /opt/ros/humble/include/rmw/rmw/init_options.h:
 
 /opt/ros/humble/include/rmw/rmw/domain_id.h:
@@ -2334,11 +2878,19 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rmw/rmw/ret_types.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/GlobalFunctions.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Map.h:
+
 /usr/include/c++/11/bits/stream_iterator.h:
 
 /opt/ros/humble/include/rcl/rcl/log_level.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/Product.h:
+
 /opt/ros/humble/include/rcl/rcl/macros.h:
+
+/usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h:
 
 /opt/ros/humble/include/rmw/rmw/types.h:
 
@@ -2364,15 +2916,21 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rcutils/rcutils/types/hash_map.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h:
+
 /opt/ros/humble/include/rcutils/rcutils/types/string_array.h:
 
 /opt/ros/humble/include/rcutils/rcutils/qsort.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
 
 /opt/ros/humble/include/rmw/rmw/rmw.h:
+
+/usr/local/include/eigen3/Eigen/src/Geometry/EulerAngles.h:
 
 /usr/include/c++/11/bits/ostream.tcc:
 
@@ -2414,6 +2972,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/requested_deadline_missed.h:
 
+/usr/local/include/eigen3/Eigen/src/plugins/BlockMethods.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
 
 /opt/ros/humble/include/rcl/rcl/visibility_control.h:
@@ -2446,6 +3006,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rcl/rcl/node_options.h:
 
+/usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:
 
 /opt/ros/humble/include/rcl/rcl/domain_id.h:
@@ -2458,6 +3020,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/c++/11/bits/locale_facets_nonio.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
+
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
 /opt/ros/humble/include/rcl/rcl/time.h:
@@ -2465,6 +3029,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp:
 
@@ -2478,6 +3044,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rcl/rcl/event.h:
 
+/usr/local/include/eigen3/Eigen/src/Geometry/RotationBase.h:
+
 /opt/ros/humble/include/rcl/rcl/publisher.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp:
@@ -2489,6 +3057,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/include/c++/11/bits/unordered_set.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/Macros.h:
 
 /opt/ros/humble/include/rcl/rcl/event_callback.h:
 
@@ -2507,6 +3077,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/time.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/Random.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
 
@@ -2552,6 +3124,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
 
 /opt/ros/humble/include/rmw/rmw/names_and_types.h:
@@ -2562,7 +3136,11 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/util/MKL_support.h:
+
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
+
+/usr/local/include/eigen3/Eigen/QR:
 
 /opt/ros/humble/include/rcutils/rcutils/logging.h:
 
@@ -2598,6 +3176,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
+/usr/local/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
+
 /usr/include/c++/11/bits/locale_conv.h:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
@@ -2610,11 +3190,15 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rmw/rmw/error_handling.h:
 
+/usr/local/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:
+
 /opt/ros/humble/include/rmw/rmw/impl/config.h:
 
 /usr/include/alloca.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/NoAlias.h:
 
 /opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h:
 
@@ -2638,9 +3222,13 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:
 
+/usr/include/c++/11/complex:
+
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /opt/ros/humble/include/tracetools/tracetools/utils.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/Dot.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp:
 
@@ -2666,7 +3254,11 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/Replicate.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:
 
@@ -2684,13 +3276,19 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/Assign.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp:
 
 /usr/include/c++/11/thread:
 
 /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/Array.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
 
@@ -2718,11 +3316,15 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/ArrayBase.h:
+
 /usr/include/c++/11/bits/specfun.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
 
 /usr/include/c++/11/tr1/ell_integral.tcc:
+
+/usr/local/include/eigen3/Eigen/src/Core/BandMatrix.h:
 
 /opt/ros/humble/include/rcl/rcl/error_handling.h:
 
@@ -2737,5 +3339,7 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
+
+/usr/local/include/eigen3/Eigen/Dense:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:

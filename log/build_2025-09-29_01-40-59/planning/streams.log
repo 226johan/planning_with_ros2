@@ -1,0 +1,59 @@
+[0.181s] Invoking command in '/home/johan/planning_with_ROS2_course/build/planning': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/bin/cmake --build /home/johan/planning_with_ROS2_course/build/planning -- -j16 -l16
+[0.219s] [  6%] Built target config_reader
+[0.219s] [ 12%] Built target decision_center
+[0.220s] [ 22%] Built target mathlibs
+[0.230s] [ 41%] Built target local_planner
+[0.232s] [ 54%] Built target obj_move_cmd
+[0.232s] [ 54%] Built target car_move_cmd
+[0.232s] [ 64%] Built target planning_node
+[0.238s] [ 83%] Built target reference_line
+[0.238s] [ 83%] Built target pnc_map_creator
+[0.243s] [ 93%] Built target vehicle_info
+[0.257s] [100%] Built target pnc_map_server
+[0.264s] Invoked command in '/home/johan/planning_with_ROS2_course/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/bin/cmake --build /home/johan/planning_with_ROS2_course/build/planning -- -j16 -l16
+[0.265s] Invoking command in '/home/johan/planning_with_ROS2_course/build/planning': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/bin/cmake --install /home/johan/planning_with_ROS2_course/build/planning
+[0.271s] -- Install configuration: ""
+[0.271s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so
+[0.271s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so" to ""
+[0.271s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/libmathlibs.so
+[0.271s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/libmathlibs.so" to ""
+[0.272s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/libdecision_center.so
+[0.273s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/libdecision_center.so" to ""
+[0.273s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/bin/pnc_map_server
+[0.273s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/bin/pnc_map_server" to ""
+[0.273s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/planning/pnc_map_server
+[0.274s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/planning/pnc_map_server" to ""
+[0.274s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/liblocal_planner.so
+[0.275s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/liblocal_planner.so" to ""
+[0.275s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/libreference_line.so
+[0.275s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/libreference_line.so" to ""
+[0.276s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/libvehicle_info.so
+[0.276s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/libvehicle_info.so" to ""
+[0.276s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/planning/planning_node
+[0.277s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/planning/planning_node" to ""
+[0.277s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/planning/car_move_cmd
+[0.278s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/planning/car_move_cmd" to ""
+[0.278s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/planning/obj_move_cmd
+[0.278s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/planning/obj_move_cmd" to ""
+[0.278s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/config
+[0.278s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/rviz
+[0.278s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/launch
+[0.278s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf
+[0.279s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/obs_car
+[0.279s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/main_car
+[0.279s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
+[0.279s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
+[0.279s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.sh
+[0.279s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.dsv
+[0.279s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/environment/path.sh
+[0.279s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/environment/path.dsv
+[0.279s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/local_setup.bash
+[0.279s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/local_setup.sh
+[0.279s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/local_setup.zsh
+[0.279s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/local_setup.dsv
+[0.279s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/package.dsv
+[0.279s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/packages/planning
+[0.279s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig.cmake
+[0.279s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig-version.cmake
+[0.279s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/package.xml
+[0.281s] Invoked command in '/home/johan/planning_with_ROS2_course/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/bin/cmake --install /home/johan/planning_with_ROS2_course/build/planning

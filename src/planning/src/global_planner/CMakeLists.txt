@@ -21,21 +21,24 @@ add_executable(global_path_server
   ${CMAKE_CURRENT_SOURCE_DIR}/global_path_server.cpp
 )
 
-set(PROJECT_TARGETS
+set(project_targets
   global_planner
   global_path_server
 )
 
 # 添加依赖
-foreach(target ${PROJECT_TARGETS} )
+foreach(target ${project_targets} )
   ament_target_dependencies(${target} 
   ${DEPENDS}
   )
 endforeach()
 
+target_link_libraries(global_planner
+  config_reader
+)
+
 target_link_libraries(global_path_server
   config_reader
-  global_planner
 )
 
 
