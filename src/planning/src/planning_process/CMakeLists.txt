@@ -27,9 +27,9 @@ ament_target_dependencies(${target}
   ${DEPENDS}
 )
 
-# target_link_libraries(${target}
-
-# )
+target_link_libraries(${target}
+    config_reader
+)
 
 # 安装动态奎、节点和相关目录
 install(TARGETS
