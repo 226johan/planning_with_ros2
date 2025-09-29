@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target planning_node[0m
+[  3%] [32mBuilding CXX object src/common/CMakeFiles/config_reader.dir/config_reader/config_reader.cpp.o[0m
+[ 12%] Built target mathlibs
+[ 22%] Built target car_move_cmd
+[ 22%] [32m[1mLinking CXX executable planning_node[0m
+[ 29%] Built target obj_move_cmd
+/usr/bin/ld: CMakeFiles/planning_node.dir/planning_process.cpp.o: in function `Planning::PlanningProcess::PlanningProcess()':
+planning_process.cpp:(.text+0x2d0): undefined reference to `Planning::ConfigReader::read_planning_process_config()'
+/usr/bin/ld: CMakeFiles/planning_node.dir/planning_process.cpp.o: in function `std::_MakeUniq<Planning::ConfigReader>::__single_object std::make_unique<Planning::ConfigReader>()':
+planning_process.cpp:(.text._ZSt11make_uniqueIN8Planning12ConfigReaderEJEENSt9_MakeUniqIT_E15__single_objectEDpOT0_[_ZSt11make_uniqueIN8Planning12ConfigReaderEJEENSt9_MakeUniqIT_E15__single_objectEDpOT0_]+0x26): undefined reference to `Planning::ConfigReader::ConfigReader()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [src/planning_process/CMakeFiles/planning_node.dir/build.make:221：src/planning_process/planning_node] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:500：src/planning_process/CMakeFiles/planning_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[ 32%] [32m[1mLinking CXX shared library libconfig_reader.so[0m
+[ 32%] Built target config_reader
+gmake: *** [Makefile:146：all] 错误 2

@@ -9,6 +9,7 @@
 /home/johan/planning_with_ROS2_course/install/planning/lib/planning/planning_node
 /home/johan/planning_with_ROS2_course/install/planning/lib/planning/car_move_cmd
 /home/johan/planning_with_ROS2_course/install/planning/lib/planning/obj_move_cmd
+/home/johan/planning_with_ROS2_course/install/planning/share/planning/config/planning_static_obs_config.yaml
 /home/johan/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
 /home/johan/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
 /home/johan/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.sh

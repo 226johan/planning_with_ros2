@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target config_reader[0m
+[  9%] Built target planning_node
+[ 19%] Built target mathlibs
+[ 32%] [32mBuilding CXX object src/common/CMakeFiles/config_reader.dir/config_reader/config_reader.cpp.o[0m
+[ 35%] Built target car_move_cmd
+[ 35%] Built target obj_move_cmd
