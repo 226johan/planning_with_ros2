@@ -2,9 +2,9 @@
 
 namespace Planning{
 
-    PlanningProcess::PlanningProcess() : Node("planning_node")  // 规划总流程
+    PlanningProcess::PlanningProcess() : Node("planning_process")  // 规划总流程
     {
-        RCLCPP_INFO(this->get_logger(),"planning_node created");
+        RCLCPP_INFO(this->get_logger(),"planning_process created");
 
         // read config
         process_config_ = std::make_unique<ConfigReader>();
