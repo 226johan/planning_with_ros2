@@ -16,6 +16,7 @@
         ""
     ],
     "files.associations": {
-        "dense": "cpp"
+        "dense": "cpp",
+        "functional": "cpp"
     }
 }
