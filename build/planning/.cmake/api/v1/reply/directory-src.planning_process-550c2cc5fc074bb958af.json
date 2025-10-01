@@ -30,9 +30,9 @@
 			"destination" : "lib/planning",
 			"paths" : 
 			[
-				"src/planning_process/planning_node"
+				"src/planning_process/planning_process"
 			],
-			"targetId" : "planning_node::@7f6d08f3b5f751c4407d",
+			"targetId" : "planning_process::@7f6d08f3b5f751c4407d",
 			"targetIndex" : 6,
 			"type" : "target"
 		}

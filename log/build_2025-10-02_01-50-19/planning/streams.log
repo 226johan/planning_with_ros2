@@ -1,0 +1,92 @@
+[0.182s] Invoking command in '/home/johan/planning_with_ROS2_course/build/planning': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/bin/cmake --build /home/johan/planning_with_ROS2_course/build/planning -- -j16 -l16
+[0.201s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.309s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.337s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.341s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.346s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.392s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.394s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.476s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.516s] -- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+[0.529s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.593s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.605s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.633s] -- Found base_msgs: 0.0.0 (/home/johan/planning_with_ROS2_course/install/base_msgs/share/base_msgs/cmake)
+[0.702s] -- Configuring done
+[0.744s] -- Generating done
+[0.757s] -- Build files have been written to: /home/johan/planning_with_ROS2_course/build/planning
+[0.780s] [35m[1mConsolidate compiler generated dependencies of target car_move_cmd[0m
+[0.780s] [35m[1mConsolidate compiler generated dependencies of target config_reader[0m
+[0.781s] [35m[1mConsolidate compiler generated dependencies of target obj_move_cmd[0m
+[0.781s] [35m[1mConsolidate compiler generated dependencies of target mathlibs[0m
+[0.791s] [  6%] Built target car_move_cmd
+[0.792s] [ 12%] Built target config_reader
+[0.798s] [ 22%] Built target mathlibs
+[0.798s] [ 29%] Built target obj_move_cmd
+[0.804s] [35m[1mConsolidate compiler generated dependencies of target pnc_map_creator[0m
+[0.805s] [ 32%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o[0m
+[0.806s] [35m[1mConsolidate compiler generated dependencies of target vehicle_info[0m
+[0.806s] [35m[1mConsolidate compiler generated dependencies of target reference_line[0m
+[0.809s] [ 35%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o[0m
+[0.819s] [ 45%] Built target pnc_map_creator
+[0.827s] [35m[1mConsolidate compiler generated dependencies of target pnc_map_server[0m
+[0.828s] [ 54%] Built target vehicle_info
+[0.828s] [ 64%] Built target reference_line
+[0.839s] [ 70%] Built target pnc_map_server
+[0.842s] [35m[1mConsolidate compiler generated dependencies of target decision_center[0m
+[0.857s] [ 77%] Built target decision_center
+[0.868s] [35m[1mConsolidate compiler generated dependencies of target local_planner[0m
+[0.889s] [ 96%] Built target local_planner
+[2.629s] [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/planning_process/planning_process.cpp:[m[K In constructor ‘[01m[KPlanning::PlanningProcess::PlanningProcess()[m[K’:
+[2.629s] [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/planning_process/planning_process.cpp:12:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobs_dis[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.629s]    12 |         auto [01;35m[Kobs_dis[m[K = process_config_->process().obs_dis_;
+[2.629s]       |              [01;35m[K^~~~~~~[m[K
+[3.052s] [100%] [32m[1mLinking CXX executable planning_process[0m
+[3.138s] [100%] Built target planning_process
+[3.147s] Invoked command in '/home/johan/planning_with_ROS2_course/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/bin/cmake --build /home/johan/planning_with_ROS2_course/build/planning -- -j16 -l16
+[3.149s] Invoking command in '/home/johan/planning_with_ROS2_course/build/planning': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/bin/cmake --install /home/johan/planning_with_ROS2_course/build/planning
+[3.159s] -- Install configuration: ""
+[3.159s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so
+[3.159s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/lib/libmathlibs.so
+[3.160s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/lib/libdecision_center.so
+[3.160s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/bin/pnc_map_server
+[3.161s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/lib/planning/pnc_map_server
+[3.161s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/lib/liblocal_planner.so
+[3.161s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/lib/libreference_line.so
+[3.161s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/lib/libvehicle_info.so
+[3.162s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/planning/planning_process
+[3.162s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/planning/planning_process" to ""
+[3.162s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/lib/planning/car_move_cmd
+[3.162s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/lib/planning/obj_move_cmd
+[3.162s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/config
+[3.162s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/config/planning_static_obs_config.yaml
+[3.162s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/rviz
+[3.162s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/rviz/planning.rviz
+[3.162s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/launch
+[3.162s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/launch/planning_launch.py
+[3.163s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf
+[3.163s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/obs_car
+[3.163s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/main_car
+[3.163s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/main_car/car_wheels.xacro
+[3.163s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/main_car/car_base.xacro
+[3.163s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/main_car/car.xacro
+[3.163s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/main_car/car_radar.xacro
+[3.163s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/main_car/car_camera.xacro
+[3.163s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
+[3.163s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
+[3.163s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.sh
+[3.163s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.dsv
+[3.163s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/environment/path.sh
+[3.163s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/environment/path.dsv
+[3.163s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/local_setup.bash
+[3.163s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/local_setup.sh
+[3.163s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/local_setup.zsh
+[3.163s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/local_setup.dsv
+[3.163s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/package.dsv
+[3.163s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/packages/planning
+[3.164s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig.cmake
+[3.164s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig-version.cmake
+[3.164s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/package.xml
+[3.165s] Invoked command in '/home/johan/planning_with_ROS2_course/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble /usr/bin/cmake --install /home/johan/planning_with_ROS2_course/build/planning

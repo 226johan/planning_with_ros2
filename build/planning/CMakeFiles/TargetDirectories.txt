@@ -57,7 +57,7 @@
 /home/johan/planning_with_ROS2_course/build/planning/src/vehicle_info/CMakeFiles/install.dir
 /home/johan/planning_with_ROS2_course/build/planning/src/vehicle_info/CMakeFiles/install/local.dir
 /home/johan/planning_with_ROS2_course/build/planning/src/vehicle_info/CMakeFiles/install/strip.dir
-/home/johan/planning_with_ROS2_course/build/planning/src/planning_process/CMakeFiles/planning_node.dir
+/home/johan/planning_with_ROS2_course/build/planning/src/planning_process/CMakeFiles/planning_process.dir
 /home/johan/planning_with_ROS2_course/build/planning/src/planning_process/CMakeFiles/test.dir
 /home/johan/planning_with_ROS2_course/build/planning/src/planning_process/CMakeFiles/edit_cache.dir
 /home/johan/planning_with_ROS2_course/build/planning/src/planning_process/CMakeFiles/rebuild_cache.dir

@@ -302,17 +302,17 @@ vehicle_info/fast:
 .PHONY : vehicle_info/fast
 
 #=============================================================================
-# Target rules for targets named planning_node
+# Target rules for targets named planning_process
 
 # Build rule for target.
-planning_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 planning_node
-.PHONY : planning_node
+planning_process: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 planning_process
+.PHONY : planning_process
 
 # fast build rule for target.
-planning_node/fast:
-	$(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/build
-.PHONY : planning_node/fast
+planning_process/fast:
+	$(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_process.dir/build.make src/planning_process/CMakeFiles/planning_process.dir/build
+.PHONY : planning_process/fast
 
 #=============================================================================
 # Target rules for targets named car_move_cmd
@@ -361,7 +361,7 @@ help:
 	@echo "... local_planner"
 	@echo "... mathlibs"
 	@echo "... obj_move_cmd"
-	@echo "... planning_node"
+	@echo "... planning_process"
 	@echo "... pnc_map_creator"
 	@echo "... pnc_map_server"
 	@echo "... reference_line"

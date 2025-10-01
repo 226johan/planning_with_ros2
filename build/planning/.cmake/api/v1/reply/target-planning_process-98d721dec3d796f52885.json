@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/planning_process/planning_node"
+			"path" : "src/planning_process/planning_process"
 		}
 	],
 	"backtrace" : 1,
@@ -389,7 +389,7 @@
 			"id" : "config_reader::@af79f3804eddddbfa7f1"
 		}
 	],
-	"id" : "planning_node::@7f6d08f3b5f751c4407d",
+	"id" : "planning_process::@7f6d08f3b5f751c4407d",
 	"install" : 
 	{
 		"destinations" : 
@@ -876,8 +876,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "planning_node",
-	"nameOnDisk" : "planning_node",
+	"name" : "planning_process",
+	"nameOnDisk" : "planning_process",
 	"paths" : 
 	{
 		"build" : "src/planning_process",
@@ -899,7 +899,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/planning_process/planning_node.cpp",
+			"path" : "src/planning_process/planning_process_main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

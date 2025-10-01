@@ -172,49 +172,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/planning_process/CMakeFiles/planning_node.dir/rule:
-	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/planning_process/CMakeFiles/planning_node.dir/rule
-.PHONY : src/planning_process/CMakeFiles/planning_node.dir/rule
+src/planning_process/CMakeFiles/planning_process.dir/rule:
+	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/planning_process/CMakeFiles/planning_process.dir/rule
+.PHONY : src/planning_process/CMakeFiles/planning_process.dir/rule
 
 # Convenience name for target.
-planning_node: src/planning_process/CMakeFiles/planning_node.dir/rule
-.PHONY : planning_node
+planning_process: src/planning_process/CMakeFiles/planning_process.dir/rule
+.PHONY : planning_process
 
 # fast build rule for target.
-planning_node/fast:
-	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/build
-.PHONY : planning_node/fast
-
-planning_node.o: planning_node.cpp.o
-.PHONY : planning_node.o
-
-# target to build an object file
-planning_node.cpp.o:
-	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/planning_node.cpp.o
-.PHONY : planning_node.cpp.o
-
-planning_node.i: planning_node.cpp.i
-.PHONY : planning_node.i
-
-# target to preprocess a source file
-planning_node.cpp.i:
-	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/planning_node.cpp.i
-.PHONY : planning_node.cpp.i
-
-planning_node.s: planning_node.cpp.s
-.PHONY : planning_node.s
-
-# target to generate assembly for a file
-planning_node.cpp.s:
-	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/planning_node.cpp.s
-.PHONY : planning_node.cpp.s
+planning_process/fast:
+	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_process.dir/build.make src/planning_process/CMakeFiles/planning_process.dir/build
+.PHONY : planning_process/fast
 
 planning_process.o: planning_process.cpp.o
 .PHONY : planning_process.o
 
 # target to build an object file
 planning_process.cpp.o:
-	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/planning_process.cpp.o
+	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_process.dir/build.make src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o
 .PHONY : planning_process.cpp.o
 
 planning_process.i: planning_process.cpp.i
@@ -222,7 +198,7 @@ planning_process.i: planning_process.cpp.i
 
 # target to preprocess a source file
 planning_process.cpp.i:
-	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/planning_process.cpp.i
+	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_process.dir/build.make src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.i
 .PHONY : planning_process.cpp.i
 
 planning_process.s: planning_process.cpp.s
@@ -230,8 +206,32 @@ planning_process.s: planning_process.cpp.s
 
 # target to generate assembly for a file
 planning_process.cpp.s:
-	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/planning_process.cpp.s
+	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_process.dir/build.make src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.s
 .PHONY : planning_process.cpp.s
+
+planning_process_main.o: planning_process_main.cpp.o
+.PHONY : planning_process_main.o
+
+# target to build an object file
+planning_process_main.cpp.o:
+	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_process.dir/build.make src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
+.PHONY : planning_process_main.cpp.o
+
+planning_process_main.i: planning_process_main.cpp.i
+.PHONY : planning_process_main.i
+
+# target to preprocess a source file
+planning_process_main.cpp.i:
+	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_process.dir/build.make src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.i
+.PHONY : planning_process_main.cpp.i
+
+planning_process_main.s: planning_process_main.cpp.s
+.PHONY : planning_process_main.s
+
+# target to generate assembly for a file
+planning_process_main.cpp.s:
+	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_process.dir/build.make src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.s
+.PHONY : planning_process_main.cpp.s
 
 # Help Target
 help:
@@ -246,13 +246,13 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... planning_node"
-	@echo "... planning_node.o"
-	@echo "... planning_node.i"
-	@echo "... planning_node.s"
+	@echo "... planning_process"
 	@echo "... planning_process.o"
 	@echo "... planning_process.i"
 	@echo "... planning_process.s"
+	@echo "... planning_process_main.o"
+	@echo "... planning_process_main.i"
+	@echo "... planning_process_main.s"
 .PHONY : help
 
 

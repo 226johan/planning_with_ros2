@@ -165,7 +165,7 @@ src/move_cmd/clean: src/move_cmd/CMakeFiles/obj_move_cmd.dir/clean
 # Directory level rules for directory src/planning_process
 
 # Recursive "all" directory target.
-src/planning_process/all: src/planning_process/CMakeFiles/planning_node.dir/all
+src/planning_process/all: src/planning_process/CMakeFiles/planning_process.dir/all
 .PHONY : src/planning_process/all
 
 # Recursive "preinstall" directory target.
@@ -173,7 +173,7 @@ src/planning_process/preinstall:
 .PHONY : src/planning_process/preinstall
 
 # Recursive "clean" directory target.
-src/planning_process/clean: src/planning_process/CMakeFiles/planning_node.dir/clean
+src/planning_process/clean: src/planning_process/CMakeFiles/planning_process.dir/clean
 .PHONY : src/planning_process/clean
 
 #=============================================================================
@@ -492,30 +492,30 @@ src/vehicle_info/CMakeFiles/vehicle_info.dir/clean:
 .PHONY : src/vehicle_info/CMakeFiles/vehicle_info.dir/clean
 
 #=============================================================================
-# Target rules for target src/planning_process/CMakeFiles/planning_node.dir
+# Target rules for target src/planning_process/CMakeFiles/planning_process.dir
 
 # All Build rule for target.
-src/planning_process/CMakeFiles/planning_node.dir/all: src/common/CMakeFiles/config_reader.dir/all
-	$(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=18,19,20 "Built target planning_node"
-.PHONY : src/planning_process/CMakeFiles/planning_node.dir/all
+src/planning_process/CMakeFiles/planning_process.dir/all: src/common/CMakeFiles/config_reader.dir/all
+	$(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_process.dir/build.make src/planning_process/CMakeFiles/planning_process.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_process.dir/build.make src/planning_process/CMakeFiles/planning_process.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=18,19,20 "Built target planning_process"
+.PHONY : src/planning_process/CMakeFiles/planning_process.dir/all
 
 # Build rule for subdir invocation for target.
-src/planning_process/CMakeFiles/planning_node.dir/rule: cmake_check_build_system
+src/planning_process/CMakeFiles/planning_process.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/planning_process/CMakeFiles/planning_node.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/planning_process/CMakeFiles/planning_process.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 0
-.PHONY : src/planning_process/CMakeFiles/planning_node.dir/rule
+.PHONY : src/planning_process/CMakeFiles/planning_process.dir/rule
 
 # Convenience name for target.
-planning_node: src/planning_process/CMakeFiles/planning_node.dir/rule
-.PHONY : planning_node
+planning_process: src/planning_process/CMakeFiles/planning_process.dir/rule
+.PHONY : planning_process
 
 # clean rule for target.
-src/planning_process/CMakeFiles/planning_node.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_node.dir/build.make src/planning_process/CMakeFiles/planning_node.dir/clean
-.PHONY : src/planning_process/CMakeFiles/planning_node.dir/clean
+src/planning_process/CMakeFiles/planning_process.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_process.dir/build.make src/planning_process/CMakeFiles/planning_process.dir/clean
+.PHONY : src/planning_process/CMakeFiles/planning_process.dir/clean
 
 #=============================================================================
 # Target rules for target src/move_cmd/CMakeFiles/car_move_cmd.dir

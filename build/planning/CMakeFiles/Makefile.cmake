@@ -919,7 +919,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/local_planner/CMakeFiles/local_planner.dir/DependInfo.cmake"
   "src/reference_line/CMakeFiles/reference_line.dir/DependInfo.cmake"
   "src/vehicle_info/CMakeFiles/vehicle_info.dir/DependInfo.cmake"
-  "src/planning_process/CMakeFiles/planning_node.dir/DependInfo.cmake"
+  "src/planning_process/CMakeFiles/planning_process.dir/DependInfo.cmake"
   "src/move_cmd/CMakeFiles/car_move_cmd.dir/DependInfo.cmake"
   "src/move_cmd/CMakeFiles/obj_move_cmd.dir/DependInfo.cmake"
   )
