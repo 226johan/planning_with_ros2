@@ -54,7 +54,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pnc_map_server")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pnc_map_server"
-         OLD_RPATH "/home/johan/planning_with_ROS2_course/build/planning/src/pnc_map_creator:/opt/ros/humble/lib:/home/johan/planning_with_ROS2_course/build/planning/src/common:"
+         OLD_RPATH "/home/johan/planning_with_ROS2_course/build/planning/src/pnc_map_creator:/home/johan/planning_with_ROS2_course/install/base_msgs/lib:/opt/ros/humble/lib:/home/johan/planning_with_ROS2_course/build/planning/src/common:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pnc_map_server")
@@ -74,7 +74,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/planning/pnc_map_server")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/planning/pnc_map_server"
-         OLD_RPATH "/home/johan/planning_with_ROS2_course/build/planning/src/pnc_map_creator:/opt/ros/humble/lib:/home/johan/planning_with_ROS2_course/build/planning/src/common:"
+         OLD_RPATH "/home/johan/planning_with_ROS2_course/build/planning/src/pnc_map_creator:/home/johan/planning_with_ROS2_course/install/base_msgs/lib:/opt/ros/humble/lib:/home/johan/planning_with_ROS2_course/build/planning/src/common:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/planning/pnc_map_server")
