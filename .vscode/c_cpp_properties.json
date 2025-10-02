@@ -8,7 +8,7 @@
             "includePath": [
                 "/opt/ros/humble/include/**",
                 "/usr/local/include/**",
-                "/home/johan/planning_with_ROS2_course/src/base_msgs/include/**",
+                "/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/**",
                 "/home/johan/planning_with_ROS2_course/src/planning/include/**",
                 "/usr/include/**",
                 "${workspaceFolder}/src/planning/src/global_planner",
