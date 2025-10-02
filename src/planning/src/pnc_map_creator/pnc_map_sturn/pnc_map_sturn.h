@@ -5,11 +5,11 @@
 
 namespace Planning
 {
-    class PNCMapCreatorSTurn : public PNCMapCreatorBase  // 直道地图
+    class PNCMapCreatorSTurn : public PNCMapCreatorBase // 直道地图
     {
-        public:
+    public:
         PNCMapCreatorSTurn();
-
+        PNCMap creat_pnc_map() override; // 生成地图
     };
-}  // namespace Planning
-#endif  // PNC_MAP_UTURN_H_
+} // namespace Planning
+#endif // PNC_MAP_UTURN_H_
