@@ -19,6 +19,27 @@ namespace Planning{
     void PNCMapServer::response_pnc_map_callback(const std::shared_ptr<PNCMapService::Request> request, 
                                                 const std::shared_ptr<PNCMapService::Response> response)
     {
+        // 接受请求 多态
+        switch (request->map_type)
+        {
+        case static_cast<int>(PNCMapType::STRAIGHT):
+            map_creater_ = std::make_shared<PNCMapCreatorStraight>();
+            break;
+        case static_cast<int>(PNCMapType::STURN):
+            map_creater_ = std::make_shared<PNCMapCreatorSTurn>();
+            break;
+        default:
+            break;
+        }
+        // 创建并相应地图
+        const auto pnc_map = map_creater_->creat_pnc_map();
+        response->pnc_map = pnc_map;
+        // 发布地图 planning node
+        map_pub_->publish(pnc_map);  // 发布地图
+        RCLCPP_INFO(this->get_logger(), "pnc_map published");
+        // 发布rviz显示的地图
+        const auto pnc_map_makerarray = map_creater_->pnc_map_markerarray();
+        map_rviz_pub_->publish(pnc_map_makerarray);
 
     }
 
