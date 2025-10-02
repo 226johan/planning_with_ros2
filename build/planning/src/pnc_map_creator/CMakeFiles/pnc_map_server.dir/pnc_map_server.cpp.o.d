@@ -652,6 +652,10 @@ src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/pnc_map_server.cpp.o: \
  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/pnc_map.hpp \
  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__builder.hpp \
  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__type_support.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp \
  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp \
  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.hpp \
