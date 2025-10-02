@@ -9,7 +9,7 @@ class GlobalPathNormal : public GlobalPlannerBase  // 普通全局路径规划�
 {
 public:
     GlobalPathNormal();
-
+    Path serch_global_path(const PNCMap &pnc_map) override;
 
 private:
 
