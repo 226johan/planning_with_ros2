@@ -12,13 +12,9 @@ Panels:
         - /Odometry1/Covariance1/Position1
         - /Odometry1/Covariance1/Orientation1
         - /TF1/Tree1
-        - /TF1/Tree1/map1
-        - /TF1/Tree1/map1/base_footprint1
-        - /TF1/Tree1/map1/base_footprint1/base_link1
-        - /TF1/Tree1/map1/base_footprint1/base_link1/left_front_steering_knuckle1
-        - /TF1/Tree1/map1/base_footprint1/base_link1/right_front_steering_knuckle1
         - /RobotModel1
         - /RobotModel1/Description Topic1
+        - /MarkerArray1
       Splitter Ratio: 0.5
     Tree Height: 719
   - Class: rviz_common/Selection
@@ -283,6 +279,18 @@ Visualization Manager:
       Update Interval: 0
       Value: true
       Visual Enabled: true
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /planning/pnc_map_markerarray
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -329,7 +337,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 3.1882262229919434
+      Distance: 5.618744373321533
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
