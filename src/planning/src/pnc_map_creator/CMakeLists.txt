@@ -46,7 +46,7 @@ target_link_libraries(pnc_map_server
 endforeach()
 # 安装动态奎、节点和相关目录
 install(TARGETS
-  pnc_map_server
+  pnc_map_creator
   LIBRARY DESTINATION lib)
 
 install(TARGETS
