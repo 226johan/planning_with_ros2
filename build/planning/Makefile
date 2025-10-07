@@ -263,6 +263,32 @@ pnc_map_server/fast:
 .PHONY : pnc_map_server/fast
 
 #=============================================================================
+# Target rules for targets named global_planner
+
+# Build rule for target.
+global_planner: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 global_planner
+.PHONY : global_planner
+
+# fast build rule for target.
+global_planner/fast:
+	$(MAKE) $(MAKESILENT) -f src/global_planner/CMakeFiles/global_planner.dir/build.make src/global_planner/CMakeFiles/global_planner.dir/build
+.PHONY : global_planner/fast
+
+#=============================================================================
+# Target rules for targets named global_path_server
+
+# Build rule for target.
+global_path_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 global_path_server
+.PHONY : global_path_server
+
+# fast build rule for target.
+global_path_server/fast:
+	$(MAKE) $(MAKESILENT) -f src/global_planner/CMakeFiles/global_path_server.dir/build.make src/global_planner/CMakeFiles/global_path_server.dir/build
+.PHONY : global_path_server/fast
+
+#=============================================================================
 # Target rules for targets named local_planner
 
 # Build rule for target.
@@ -358,6 +384,8 @@ help:
 	@echo "... car_move_cmd"
 	@echo "... config_reader"
 	@echo "... decision_center"
+	@echo "... global_path_server"
+	@echo "... global_planner"
 	@echo "... local_planner"
 	@echo "... mathlibs"
 	@echo "... obj_move_cmd"

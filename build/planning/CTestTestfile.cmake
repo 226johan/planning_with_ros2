@@ -7,6 +7,7 @@
 subdirs("src/common")
 subdirs("src/decision_center")
 subdirs("src/pnc_map_creator")
+subdirs("src/global_planner")
 subdirs("src/local_planner")
 subdirs("src/reference_line")
 subdirs("src/vehicle_info")

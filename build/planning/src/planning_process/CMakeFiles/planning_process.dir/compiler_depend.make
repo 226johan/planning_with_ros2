@@ -685,6 +685,50 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o: /ho
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/pnc_map.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__builder.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__type_support.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/global_path_service.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__struct.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__builder.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__traits.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__type_support.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/pnc_map_service.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__struct.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__builder.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__traits.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__type_support.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /home/johan/planning_with_ROS2_course/src/planning/src/common/config_reader/config_reader.h \
   /usr/include/yaml-cpp/yaml.h \
   /usr/include/yaml-cpp/parser.h \
@@ -1623,6 +1667,50 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/pnc_map.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__builder.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__type_support.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/global_path_service.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__struct.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__builder.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__traits.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__type_support.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/pnc_map_service.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__struct.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__builder.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__traits.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__type_support.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /home/johan/planning_with_ROS2_course/src/planning/src/common/config_reader/config_reader.h \
   /usr/include/yaml-cpp/yaml.h \
   /usr/include/yaml-cpp/parser.h \
@@ -1950,8 +2038,6 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 
 /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/ProductEvaluators.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/products/Parallelizer.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
@@ -2031,8 +2117,6 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 /usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/IO.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:
 
@@ -2150,6 +2234,52 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 
 /usr/include/yaml-cpp/yaml.h:
 
+/opt/ros/humble/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__type_support.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__traits.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__builder.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/pnc_map_service.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/ProductEvaluators.h:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/global_path_service.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__type_support.hpp:
+
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__traits.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__builder.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/pnc_map__struct.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp:
@@ -2258,6 +2388,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp:
@@ -2281,6 +2413,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
+
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
 
@@ -2384,6 +2518,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 
 /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
 
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__struct.hpp:
+
 /usr/include/c++/11/bits/stl_algo.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
@@ -2432,6 +2568,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 
 /home/johan/planning_with_ROS2_course/src/planning/src/common/math/polynomial_curve.h:
 
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp:
+
 /usr/include/c++/11/numeric:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
@@ -2474,6 +2612,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
@@ -2500,6 +2640,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 
 /opt/ros/humble/include/rmw/rmw/security_options.h:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp:
+
 /usr/include/c++/11/cerrno:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
@@ -2507,6 +2649,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 /usr/include/c++/11/utility:
 
 /usr/include/c++/11/ios:
+
+/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:
 
@@ -2517,6 +2661,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:
 
 /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/pnc_map_service__struct.hpp:
 
 /usr/include/c++/11/limits:
 
@@ -2658,7 +2804,11 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 
 /usr/include/c++/11/bits/functional_hash.h:
 
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:
+
 /usr/include/c++/11/csignal:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp:
 
 /usr/include/c++/11/pstl/glue_memory_defs.h:
 
@@ -2667,6 +2817,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 /usr/include/c++/11/string:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/pnc_map.hpp:
 
 /usr/include/c++/11/bits/unique_lock.h:
 
@@ -2750,6 +2902,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
@@ -2781,6 +2935,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 /usr/local/include/eigen3/Eigen/SVD:
 
 /usr/include/c++/11/iosfwd:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:
 
 /usr/include/c++/11/initializer_list:
 
@@ -2814,7 +2970,13 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp:
+
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -2851,6 +3013,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
 /usr/include/c++/11/bits/stl_construct.h:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
@@ -2979,6 +3143,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 /opt/ros/humble/include/rcl/rcl/init_options.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/srv/detail/global_path_service__type_support.hpp:
 
 /opt/ros/humble/include/tracetools/tracetools/config.h:
 
@@ -3186,6 +3352,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 
 /usr/include/c++/11/istream:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
+
 /usr/include/c++/11/bits/istream.tcc:
 
 /usr/local/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
@@ -3316,6 +3484,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
 /usr/include/c++/11/bits/list.tcc:
@@ -3341,6 +3511,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
+
+/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp:
 
@@ -3486,6 +3658,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 
 /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
 
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp:
+
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
 /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:
@@ -3629,6 +3803,8 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp:
+
+/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:
 

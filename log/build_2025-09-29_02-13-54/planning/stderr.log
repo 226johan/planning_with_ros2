@@ -1,5 +1,0 @@
-/usr/bin/ld: 找不到 -lvchicle_info: 没有那个文件或目录
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [src/local_planner/CMakeFiles/local_planner.dir/build.make:245：src/local_planner/liblocal_planner.so] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:420：src/local_planner/CMakeFiles/local_planner.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2

@@ -1,9 +1,0 @@
-/usr/bin/ld: CMakeFiles/planning_node.dir/planning_process.cpp.o: in function `Planning::PlanningProcess::PlanningProcess()':
-planning_process.cpp:(.text+0x2d0): undefined reference to `Planning::ConfigReader::read_planning_process_config()'
-/usr/bin/ld: CMakeFiles/planning_node.dir/planning_process.cpp.o: in function `std::_MakeUniq<Planning::ConfigReader>::__single_object std::make_unique<Planning::ConfigReader>()':
-planning_process.cpp:(.text._ZSt11make_uniqueIN8Planning12ConfigReaderEJEENSt9_MakeUniqIT_E15__single_objectEDpOT0_[_ZSt11make_uniqueIN8Planning12ConfigReaderEJEENSt9_MakeUniqIT_E15__single_objectEDpOT0_]+0x26): undefined reference to `Planning::ConfigReader::ConfigReader()'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [src/planning_process/CMakeFiles/planning_node.dir/build.make:221：src/planning_process/planning_node] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:500：src/planning_process/CMakeFiles/planning_node.dir/all] 错误 2
-gmake[1]: *** 正在等待未完成的任务....
-gmake: *** [Makefile:146：all] 错误 2
