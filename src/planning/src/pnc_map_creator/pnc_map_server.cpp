@@ -41,6 +41,7 @@ namespace Planning
         // 发布rviz显示的地图
         const auto pnc_map_makerarray = map_creater_->pnc_map_markerarray();
         map_rviz_pub_->publish(pnc_map_makerarray);
+        RCLCPP_INFO(this->get_logger(), "pnc_map for rviz published");
     }
 
 } // namespace Planning
