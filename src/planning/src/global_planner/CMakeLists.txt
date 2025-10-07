@@ -38,19 +38,19 @@ target_link_libraries(global_planner
 )
 
 target_link_libraries(global_path_server
-  config_reader
+  global_planner
 )
 
 
 # 安装动态库、节点和相关目录
 install(TARGETS
   global_planner
-  LIBRARY_DESTINATION lib
+  LIBRARY DESTINATION lib
 )
 
 install(TARGETS
   global_path_server
-  LIBRARY_DESTINATION lib/${PLANNING_PACKAGE_NAME}
+  DESTINATION lib/${PLANNING_PACKAGE_NAME}
 )
 
 
