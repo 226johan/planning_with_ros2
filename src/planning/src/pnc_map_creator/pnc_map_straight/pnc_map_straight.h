@@ -10,6 +10,10 @@ namespace Planning
     public:
         PNCMapCreatorStraight();
         PNCMap creat_pnc_map() override; // 生成地图
+
+    private:
+        void init_pnc_map();    // 初始化地图
+        void draw_straight_x(const double &lenght,const double &plus_flag,const double &ratio = 1.0); // 沿x轴画直线
     };
 } // namespace Planning
 #endif // PNC_MAP_STRAIGHT_H_

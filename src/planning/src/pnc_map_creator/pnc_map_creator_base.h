@@ -7,6 +7,7 @@
 #include "visualization_msgs/msg/marker.hpp"
 #include "visualization_msgs/msg/marker_array.hpp"
 #include "config_reader.h"
+#include<cmath>
 namespace Planning
 {
     using base_msgs::msg::PNCMap;
