@@ -23,12 +23,14 @@ namespace Planning
     public:
         virtual Path serch_global_path(const PNCMap &pnc_map) = 0;
         inline Path global_path() const { return global_path_; }
-        virtual ~GlobalPlannerBase(){}
+        virtual ~GlobalPlannerBase() {}
+
+
 
     protected:
-        std::unique_ptr<ConfigReader> global_planner_config_;
-        int global_planner_type_ = 0;
-        Path global_path_;
+        std::unique_ptr<ConfigReader> global_planner_config_; // 配置
+        int global_planner_type_ = 0;                         // 类型
+        Path global_path_;                                    // 全局路径
     };
 } // namespace Planning
 #endif // GLOBAL_PLANNER_BASE_H_

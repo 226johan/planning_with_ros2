@@ -14,6 +14,7 @@ Panels:
         - /TF1/Tree1
         - /RobotModel1/Description Topic1
         - /MarkerArray1
+        - /Marker1
       Splitter Ratio: 0.5
     Tree Height: 719
   - Class: rviz_common/Selection
@@ -282,13 +283,26 @@ Visualization Manager:
       Enabled: true
       Name: MarkerArray
       Namespaces:
-        {}
+        pnc_map: true
       Topic:
         Depth: 5
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
         Value: /planning/pnc_map_markerarray
+      Value: true
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Marker
+      Namespaces:
+        {}
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        Filter size: 10
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /planning/global_path_rviz
       Value: true
   Enabled: true
   Global Options:

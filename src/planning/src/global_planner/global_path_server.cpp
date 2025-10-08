@@ -53,6 +53,26 @@ namespace Planning
     Marker GlobalPathServer::path2marker(const Path &path)
     {
         Marker path_rviz_;
+        path_rviz_.header = path.header;
+        path_rviz_.ns = "global_path";
+        path_rviz_.id = 0;
+        path_rviz_.type = Marker::LINE_STRIP;
+        path_rviz_.action = Marker::ADD;
+        path_rviz_.scale.x = 0.05;
+        path_rviz_.color.a = 1.0; 
+        path_rviz_.color.r = 0.8; 
+        path_rviz_.color.g = 0.0; 
+        path_rviz_.color.b = 0.0; 
+        path_rviz_.lifetime = rclcpp::Duration::max();
+        path_rviz_.frame_locked = true;
+
+        Point p_tmp;
+        for(const auto &pose : path.poses){
+            p_tmp.x = pose.pose.position.x;
+            p_tmp.y = pose.pose.position.y;
+            // p_tmp.z = pose.pose.position.z;
+            path_rviz_.points.emplace_back(p_tmp);
+        }
         return path_rviz_;
     }
 
