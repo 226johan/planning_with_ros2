@@ -85,7 +85,7 @@ namespace Planning
 
             len_tmp += len_step_ * ratio;
             // p_mid_.x += len_tmp * plus_flag;
-            p_mid_.x += len_step_ * plus_flag;
+            p_mid_.x += len_step_ * plus_flag * ratio;
         }
     }
 
