@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/pnc_map_creator.dir/pnc_map_straight/pnc_map_straight.cpp.o.d"
   "CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_sturn.cpp.o"
   "CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_sturn.cpp.o.d"
+  "CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.o"
+  "CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.o.d"
   "libpnc_map_creator.pdb"
   "libpnc_map_creator.so"
 )

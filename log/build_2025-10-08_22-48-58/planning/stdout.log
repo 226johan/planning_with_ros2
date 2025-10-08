@@ -1,0 +1,15 @@
+[ 11%] Built target config_reader
+[ 11%] Built target car_move_cmd
+[ 19%] Built target mathlibs
+[35m[1mConsolidate compiler generated dependencies of target pnc_map_creator[0m
+[ 25%] Built target obj_move_cmd
+[ 38%] Built target global_planner
+[ 38%] Built target vehicle_info
+[ 41%] [32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_straight/pnc_map_straight.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_sturn.cpp.o[0m
+[ 52%] Built target reference_line
+[ 55%] [32mBuilding CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.o[0m
+[ 63%] Built target planning_process
+[ 69%] Built target global_path_server
+[ 75%] Built target decision_center
+[ 91%] Built target local_planner

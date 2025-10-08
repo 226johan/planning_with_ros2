@@ -271,6 +271,30 @@ pnc_map_sturn/pnc_map_sturn.cpp.s:
 	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/build.make src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_sturn.cpp.s
 .PHONY : pnc_map_sturn/pnc_map_sturn.cpp.s
 
+pnc_map_topo/pnc_map_topo.o: pnc_map_topo/pnc_map_topo.cpp.o
+.PHONY : pnc_map_topo/pnc_map_topo.o
+
+# target to build an object file
+pnc_map_topo/pnc_map_topo.cpp.o:
+	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/build.make src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.o
+.PHONY : pnc_map_topo/pnc_map_topo.cpp.o
+
+pnc_map_topo/pnc_map_topo.i: pnc_map_topo/pnc_map_topo.cpp.i
+.PHONY : pnc_map_topo/pnc_map_topo.i
+
+# target to preprocess a source file
+pnc_map_topo/pnc_map_topo.cpp.i:
+	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/build.make src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.i
+.PHONY : pnc_map_topo/pnc_map_topo.cpp.i
+
+pnc_map_topo/pnc_map_topo.s: pnc_map_topo/pnc_map_topo.cpp.s
+.PHONY : pnc_map_topo/pnc_map_topo.s
+
+# target to generate assembly for a file
+pnc_map_topo/pnc_map_topo.cpp.s:
+	cd /home/johan/planning_with_ROS2_course/build/planning && $(MAKE) $(MAKESILENT) -f src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/build.make src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.s
+.PHONY : pnc_map_topo/pnc_map_topo.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -295,6 +319,9 @@ help:
 	@echo "... pnc_map_sturn/pnc_map_sturn.o"
 	@echo "... pnc_map_sturn/pnc_map_sturn.i"
 	@echo "... pnc_map_sturn/pnc_map_sturn.s"
+	@echo "... pnc_map_topo/pnc_map_topo.o"
+	@echo "... pnc_map_topo/pnc_map_topo.i"
+	@echo "... pnc_map_topo/pnc_map_topo.s"
 .PHONY : help
 
 

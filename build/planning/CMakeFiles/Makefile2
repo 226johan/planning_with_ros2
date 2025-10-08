@@ -382,12 +382,12 @@ src/decision_center/CMakeFiles/decision_center.dir/clean:
 src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/all: src/common/CMakeFiles/config_reader.dir/all
 	$(MAKE) $(MAKESILENT) -f src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/build.make src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/build.make src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=25,26,27 "Built target pnc_map_creator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=25,26,27,28 "Built target pnc_map_creator"
 .PHONY : src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/all
 
 # Build rule for subdir invocation for target.
 src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 0
 .PHONY : src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/rule
@@ -409,12 +409,12 @@ src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/all: src/common/CMakeFiles/con
 src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/all: src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/all
 	$(MAKE) $(MAKESILENT) -f src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/build.make src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/build.make src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=28,29 "Built target pnc_map_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=29,30 "Built target pnc_map_server"
 .PHONY : src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/all
 
 # Build rule for subdir invocation for target.
 src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 0
 .PHONY : src/pnc_map_creator/CMakeFiles/pnc_map_server.dir/rule
@@ -518,7 +518,7 @@ src/reference_line/CMakeFiles/reference_line.dir/all: src/common/CMakeFiles/conf
 src/reference_line/CMakeFiles/reference_line.dir/all: src/common/CMakeFiles/mathlibs.dir/all
 	$(MAKE) $(MAKESILENT) -f src/reference_line/CMakeFiles/reference_line.dir/build.make src/reference_line/CMakeFiles/reference_line.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/reference_line/CMakeFiles/reference_line.dir/build.make src/reference_line/CMakeFiles/reference_line.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=30,31,32 "Built target reference_line"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=31,32,33 "Built target reference_line"
 .PHONY : src/reference_line/CMakeFiles/reference_line.dir/all
 
 # Build rule for subdir invocation for target.
@@ -545,7 +545,7 @@ src/vehicle_info/CMakeFiles/vehicle_info.dir/all: src/common/CMakeFiles/config_r
 src/vehicle_info/CMakeFiles/vehicle_info.dir/all: src/common/CMakeFiles/mathlibs.dir/all
 	$(MAKE) $(MAKESILENT) -f src/vehicle_info/CMakeFiles/vehicle_info.dir/build.make src/vehicle_info/CMakeFiles/vehicle_info.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/vehicle_info/CMakeFiles/vehicle_info.dir/build.make src/vehicle_info/CMakeFiles/vehicle_info.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=33,34,35 "Built target vehicle_info"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=34,35,36 "Built target vehicle_info"
 .PHONY : src/vehicle_info/CMakeFiles/vehicle_info.dir/all
 
 # Build rule for subdir invocation for target.

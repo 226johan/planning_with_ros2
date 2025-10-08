@@ -97,16 +97,32 @@ src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_sturn.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_sturn.cpp.s"
 	cd /home/johan/planning_with_ROS2_course/build/planning/src/pnc_map_creator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/johan/planning_with_ROS2_course/src/planning/src/pnc_map_creator/pnc_map_sturn/pnc_map_sturn.cpp -o CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_sturn.cpp.s
 
+src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.o: src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/flags.make
+src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.o: /home/johan/planning_with_ROS2_course/src/planning/src/pnc_map_creator/pnc_map_topo/pnc_map_topo.cpp
+src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.o: src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.o"
+	cd /home/johan/planning_with_ROS2_course/build/planning/src/pnc_map_creator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.o -MF CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.o.d -o CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.o -c /home/johan/planning_with_ROS2_course/src/planning/src/pnc_map_creator/pnc_map_topo/pnc_map_topo.cpp
+
+src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.i"
+	cd /home/johan/planning_with_ROS2_course/build/planning/src/pnc_map_creator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/johan/planning_with_ROS2_course/src/planning/src/pnc_map_creator/pnc_map_topo/pnc_map_topo.cpp > CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.i
+
+src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.s"
+	cd /home/johan/planning_with_ROS2_course/build/planning/src/pnc_map_creator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/johan/planning_with_ROS2_course/src/planning/src/pnc_map_creator/pnc_map_topo/pnc_map_topo.cpp -o CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.s
+
 # Object files for target pnc_map_creator
 pnc_map_creator_OBJECTS = \
 "CMakeFiles/pnc_map_creator.dir/pnc_map_straight/pnc_map_straight.cpp.o" \
-"CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_sturn.cpp.o"
+"CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_sturn.cpp.o" \
+"CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.o"
 
 # External object files for target pnc_map_creator
 pnc_map_creator_EXTERNAL_OBJECTS =
 
 src/pnc_map_creator/libpnc_map_creator.so: src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_straight/pnc_map_straight.cpp.o
 src/pnc_map_creator/libpnc_map_creator.so: src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_sturn/pnc_map_sturn.cpp.o
+src/pnc_map_creator/libpnc_map_creator.so: src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/pnc_map_topo/pnc_map_topo.cpp.o
 src/pnc_map_creator/libpnc_map_creator.so: src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/build.make
 src/pnc_map_creator/libpnc_map_creator.so: /home/johan/planning_with_ROS2_course/install/base_msgs/lib/libbase_msgs__rosidl_typesupport_fastrtps_c.so
 src/pnc_map_creator/libpnc_map_creator.so: /home/johan/planning_with_ROS2_course/install/base_msgs/lib/libbase_msgs__rosidl_typesupport_introspection_c.so
@@ -213,7 +229,7 @@ src/pnc_map_creator/libpnc_map_creator.so: /opt/ros/humble/lib/libtracetools.so
 src/pnc_map_creator/libpnc_map_creator.so: /opt/ros/humble/lib/libament_index_cpp.so
 src/pnc_map_creator/libpnc_map_creator.so: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 src/pnc_map_creator/libpnc_map_creator.so: src/pnc_map_creator/CMakeFiles/pnc_map_creator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libpnc_map_creator.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libpnc_map_creator.so"
 	cd /home/johan/planning_with_ROS2_course/build/planning/src/pnc_map_creator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pnc_map_creator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
