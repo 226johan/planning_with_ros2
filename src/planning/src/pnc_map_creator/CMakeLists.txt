@@ -15,6 +15,7 @@ set(DEPENDS
 add_library(pnc_map_creator SHARED
   ${CMAKE_CURRENT_SOURCE_DIR}/pnc_map_straight/pnc_map_straight.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/pnc_map_sturn/pnc_map_sturn.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/pnc_map_topo/pnc_map_topo.cpp
   
 )
 

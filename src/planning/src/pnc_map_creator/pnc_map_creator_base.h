@@ -19,6 +19,7 @@ namespace Planning
     {
         STRAIGHT,
         STURN,
+        TOPO,
     };
 
     class PNCMapCreatorBase // pnc_map创建器基类

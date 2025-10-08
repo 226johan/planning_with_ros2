@@ -28,6 +28,9 @@ namespace Planning
         case static_cast<int>(PNCMapType::STURN):
             map_creater_ = std::make_shared<PNCMapCreatorSTurn>();
             break;
+        case static_cast<int>(PNCMapType::TOPO):
+            map_creater_ = std::make_shared<PNCMapCreatorTopo>();
+            break;
         default:
             RCLCPP_WARN(this->get_logger(), "Invalid pnc_map type");
             return;
