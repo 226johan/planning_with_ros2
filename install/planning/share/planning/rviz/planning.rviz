@@ -12,7 +12,6 @@ Panels:
         - /Odometry1/Covariance1/Position1
         - /Odometry1/Covariance1/Orientation1
         - /TF1/Tree1
-        - /RobotModel1
         - /RobotModel1/Description Topic1
         - /MarkerArray1
       Splitter Ratio: 0.5
@@ -337,7 +336,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 5.618744373321533
+      Distance: 13.911806106567383
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
