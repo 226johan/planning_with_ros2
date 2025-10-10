@@ -692,9 +692,31 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o
  /home/johan/planning_with_ROS2_course/src/planning/src/vehicle_info/vehicle_info_base.h \
  /home/johan/planning_with_ROS2_course/src/planning/src/vehicle_info/obs_car/obs_car_info.h \
  /home/johan/planning_with_ROS2_course/src/planning/src/reference_line/reference_line_creator.h \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/referline.hpp \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__struct.hpp \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__struct.hpp \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__builder.hpp \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__traits.hpp \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__traits.hpp \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__type_support.hpp \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/referline_point.hpp \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__builder.hpp \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__type_support.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/johan/planning_with_ROS2_course/src/planning/src/common/math/curve.h \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/local_path.hpp \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__struct.hpp \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__struct.hpp \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__builder.hpp \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__traits.hpp \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__traits.hpp \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__type_support.hpp \
+ /home/johan/planning_with_ROS2_course/src/planning/src/reference_line/reference_line_smoother.h \
  /home/johan/planning_with_ROS2_course/src/planning/src/decision_center/decision_center.h \
  /home/johan/planning_with_ROS2_course/src/planning/src/local_planner/local_path/local_path_planner.h \
- /home/johan/planning_with_ROS2_course/src/planning/src/common/math/curve.h \
  /home/johan/planning_with_ROS2_course/src/planning/src/common/math/polynomial_curve.h \
  /usr/local/include/eigen3/Eigen/Dense \
  /usr/local/include/eigen3/Eigen/Core \

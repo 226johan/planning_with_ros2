@@ -1,0 +1,78 @@
+[0.187s] Invoking command in '/home/johan/planning_with_ROS2_course/build/planning': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/home/johan/planning_with_ROS2_course/install/planning/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --build /home/johan/planning_with_ROS2_course/build/planning -- -j16 -l16
+[0.218s] [35m[1mConsolidate compiler generated dependencies of target mathlibs[0m
+[0.226s] [  5%] Built target car_move_cmd
+[0.229s] [ 11%] Built target config_reader
+[0.232s] [ 16%] Built target obj_move_cmd
+[0.240s] [ 19%] [32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/curve.cpp.o[0m
+[0.244s] [35m[1mConsolidate compiler generated dependencies of target planning_process[0m
+[0.252s] [ 25%] Built target global_planner
+[0.253s] [ 36%] Built target pnc_map_creator
+[0.265s] [ 38%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o[0m
+[0.267s] [ 41%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o[0m
+[0.270s] [ 47%] Built target global_path_server
+[0.271s] [ 52%] Built target pnc_map_server
+[2.121s] [ 55%] [32m[1mLinking CXX shared library libmathlibs.so[0m
+[2.386s] [ 58%] Built target mathlibs
+[2.405s] [ 61%] [32m[1mLinking CXX shared library libvehicle_info.so[0m
+[2.419s] [ 63%] [32m[1mLinking CXX shared library libreference_line.so[0m
+[2.483s] [ 69%] Built target vehicle_info
+[2.503s] [ 72%] [32m[1mLinking CXX shared library libdecision_center.so[0m
+[2.534s] [ 77%] Built target reference_line
+[2.606s] [ 80%] Built target decision_center
+[2.636s] [ 83%] [32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_planner.cpp.o[0m
+[3.983s] [ 86%] [32m[1mLinking CXX executable planning_process[0m
+[4.154s] [ 86%] Built target planning_process
+[4.923s] [ 88%] [32m[1mLinking CXX shared library liblocal_planner.so[0m
+[5.004s] [100%] Built target local_planner
+[5.015s] Invoked command in '/home/johan/planning_with_ROS2_course/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/home/johan/planning_with_ROS2_course/install/planning/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --build /home/johan/planning_with_ROS2_course/build/planning -- -j16 -l16
+[5.017s] Invoking command in '/home/johan/planning_with_ROS2_course/build/planning': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/home/johan/planning_with_ROS2_course/install/planning/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --install /home/johan/planning_with_ROS2_course/build/planning
+[5.025s] -- Install configuration: ""
+[5.025s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/lib/libconfig_reader.so
+[5.026s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/libmathlibs.so
+[5.026s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/libmathlibs.so" to ""
+[5.026s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/libdecision_center.so
+[5.027s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/libdecision_center.so" to ""
+[5.028s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/lib/libpnc_map_creator.so
+[5.028s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/lib/planning/pnc_map_server
+[5.029s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/lib/libglobal_planner.so
+[5.029s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/lib/planning/global_path_server
+[5.030s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/liblocal_planner.so
+[5.030s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/liblocal_planner.so" to ""
+[5.030s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/libreference_line.so
+[5.030s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/libreference_line.so" to ""
+[5.031s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/libvehicle_info.so
+[5.031s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/libvehicle_info.so" to ""
+[5.031s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/lib/planning/planning_process
+[5.032s] -- Set runtime path of "/home/johan/planning_with_ROS2_course/install/planning/lib/planning/planning_process" to ""
+[5.033s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/lib/planning/car_move_cmd
+[5.033s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/lib/planning/obj_move_cmd
+[5.033s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/config
+[5.033s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/config/planning_static_obs_config.yaml
+[5.033s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/rviz
+[5.033s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/rviz/planning.rviz
+[5.034s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/launch
+[5.034s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/launch/planning_launch.py
+[5.034s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf
+[5.034s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/obs_car
+[5.034s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/main_car
+[5.034s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/main_car/car_wheels.xacro
+[5.034s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/main_car/car_base.xacro
+[5.034s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/main_car/car.xacro
+[5.034s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/main_car/car_radar.xacro
+[5.034s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/urdf/main_car/car_camera.xacro
+[5.035s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
+[5.035s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
+[5.035s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.sh
+[5.036s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/environment/ament_prefix_path.dsv
+[5.036s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/environment/path.sh
+[5.036s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/environment/path.dsv
+[5.036s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/local_setup.bash
+[5.036s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/local_setup.sh
+[5.036s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/local_setup.zsh
+[5.036s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/local_setup.dsv
+[5.036s] -- Installing: /home/johan/planning_with_ROS2_course/install/planning/share/planning/package.dsv
+[5.036s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/ament_index/resource_index/packages/planning
+[5.037s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig.cmake
+[5.037s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/cmake/planningConfig-version.cmake
+[5.037s] -- Up-to-date: /home/johan/planning_with_ROS2_course/install/planning/share/planning/package.xml
+[5.037s] Invoked command in '/home/johan/planning_with_ROS2_course/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/home/johan/planning_with_ROS2_course/install/planning/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --install /home/johan/planning_with_ROS2_course/build/planning

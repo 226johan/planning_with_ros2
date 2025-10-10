@@ -684,7 +684,42 @@ src/common/CMakeFiles/mathlibs.dir/math/curve.cpp.o: /home/johan/planning_with_R
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/referline.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__builder.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__type_support.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/local_path.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__struct.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__struct.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__builder.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__traits.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__traits.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__type_support.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/planning_with_ROS2_course/src/planning/src/common/math/polynomial_curve.cpp \
   /usr/include/stdc-predef.h \
@@ -1618,8 +1653,6 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/local/include/eigen3/Eigen/src/Jacobi/Jacobi.h:
 
-/usr/local/include/eigen3/Eigen/Cholesky:
-
 /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h:
 
 /usr/local/include/eigen3/Eigen/src/LU/Determinant.h:
@@ -1680,8 +1713,6 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/local/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/Transpose.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/Reshaped.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/VectorBlock.h:
@@ -1735,8 +1766,6 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/IO.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:
 
@@ -1795,6 +1824,52 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/local/include/eigen3/Eigen/Core:
 
 /home/johan/planning_with_ROS2_course/src/planning/src/common/math/polynomial_curve.cpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/usr/local/include/eigen3/Eigen/Cholesky:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:
+
+/opt/ros/humble/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__builder.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__struct.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/local_path.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/Transpose.h:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__type_support.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__struct.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/referline.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
@@ -1903,6 +1978,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp:
 
@@ -2088,6 +2165,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__struct.hpp:
+
 /usr/include/ctype.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/MatrixBase.h:
@@ -2113,6 +2192,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/include/c++/11/pstl/glue_algorithm_defs.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
@@ -2147,6 +2228,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/include/c++/11/utility:
 
 /usr/include/c++/11/ios:
+
+/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:
 
@@ -2203,6 +2286,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/include/c++/11/exception:
 
 /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
 
@@ -2276,6 +2361,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__builder.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
@@ -2343,6 +2430,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/include/x86_64-linux-gnu/bits/signum-generic.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
 
@@ -2461,6 +2550,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /usr/local/include/eigen3/Eigen/src/Core/Select.h:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
+
+/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -2808,6 +2899,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /usr/include/c++/11/istream:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
+
 /usr/include/c++/11/bits/istream.tcc:
 
 /usr/local/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
@@ -2862,6 +2955,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rmw/rmw/init_options.h:
 
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__traits.hpp:
+
 /opt/ros/humble/include/rmw/rmw/domain_id.h:
 
 /opt/ros/humble/include/rmw/rmw/localhost.h:
@@ -2902,6 +2997,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rcutils/rcutils/snprintf.h:
 
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__traits.hpp:
+
 /opt/ros/humble/include/rcutils/rcutils/time.h:
 
 /opt/ros/humble/include/rcutils/rcutils/types.h:
@@ -2936,6 +3033,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
 /usr/include/c++/11/bits/list.tcc:
@@ -2961,6 +3060,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
+
+/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp:
 
@@ -3003,6 +3104,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /opt/ros/humble/include/rmw/rmw/event_callback_type.h:
 
 /opt/ros/humble/include/rcl/rcl/node.h:
+
+/home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__struct.hpp:
 
 /opt/ros/humble/include/rcl/rcl/node_options.h:
 
@@ -3241,6 +3344,8 @@ src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o: /home/johan/plan
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp:
+
+/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:
 

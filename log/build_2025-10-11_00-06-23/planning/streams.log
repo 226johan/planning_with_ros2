@@ -1,0 +1,40 @@
+[0.201s] Invoking command in '/home/johan/planning_with_ROS2_course/build/planning': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/home/johan/planning_with_ROS2_course/install/planning/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --build /home/johan/planning_with_ROS2_course/build/planning -- -j16 -l16
+[0.248s] [  5%] Built target obj_move_cmd
+[0.249s] [  8%] [32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/curve.cpp.o[0m
+[0.256s] [ 16%] Built target config_reader
+[0.256s] [ 19%] Built target car_move_cmd
+[0.287s] [ 30%] Built target pnc_map_creator
+[0.290s] [ 33%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o[0m
+[0.294s] [ 41%] [32mBuilding CXX object src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o[0m
+[0.294s] [ 41%] Built target global_planner
+[0.299s] [35m[1mConsolidate compiler generated dependencies of target pnc_map_server[0m
+[0.319s] [ 47%] Built target pnc_map_server
+[0.325s] [ 52%] Built target global_path_server
+[1.988s] In file included from [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/common/math/curve.cpp:1[m[K:
+[1.988s] [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/common/math/curve.h:24:119:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.988s]    24 |         static int find_match_point(const Path &path,const int &last_match_point_index,const PoseStamped &target_point[01;31m[K)[m[K
+[1.988s]       |                                                                                                                       [01;31m[K^[m[K
+[1.988s]       |                                                                                                                        [32m[K;[m[K
+[2.104s] In file included from [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/local_planner/local_path/local_path_planner.h:6[m[K,
+[2.104s]                  from [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/planning_process/planning_process.h:15[m[K,
+[2.104s]                  from [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/planning_process/planning_process_main.cpp:1[m[K:
+[2.104s] [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/common/math/curve.h:24:119:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.104s]    24 |         static int find_match_point(const Path &path,const int &last_match_point_index,const PoseStamped &target_point[01;31m[K)[m[K
+[2.104s]       |                                                                                                                       [01;31m[K^[m[K
+[2.104s]       |                                                                                                                        [32m[K;[m[K
+[2.278s] In file included from [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/local_planner/local_path/local_path_planner.h:6[m[K,
+[2.279s]                  from [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/planning_process/planning_process.h:15[m[K,
+[2.279s]                  from [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/planning_process/planning_process.cpp:1[m[K:
+[2.279s] [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/common/math/curve.h:24:119:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.279s]    24 |         static int find_match_point(const Path &path,const int &last_match_point_index,const PoseStamped &target_point[01;31m[K)[m[K
+[2.279s]       |                                                                                                                       [01;31m[K^[m[K
+[2.279s]       |                                                                                                                        [32m[K;[m[K
+[2.315s] gmake[2]: *** [src/common/CMakeFiles/mathlibs.dir/build.make:76：src/common/CMakeFiles/mathlibs.dir/math/curve.cpp.o] 错误 1
+[2.315s] gmake[1]: *** [CMakeFiles/Makefile2:330：src/common/CMakeFiles/mathlibs.dir/all] 错误 2
+[2.316s] gmake[1]: *** 正在等待未完成的任务....
+[2.833s] gmake[2]: *** [src/planning_process/CMakeFiles/planning_process.dir/build.make:76：src/planning_process/CMakeFiles/planning_process.dir/planning_process_main.cpp.o] 错误 1
+[2.833s] gmake[2]: *** 正在等待未完成的任务....
+[3.217s] gmake[2]: *** [src/planning_process/CMakeFiles/planning_process.dir/build.make:90：src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o] 错误 1
+[3.217s] gmake[1]: *** [CMakeFiles/Makefile2:573：src/planning_process/CMakeFiles/planning_process.dir/all] 错误 2
+[3.217s] gmake: *** [Makefile:146：all] 错误 2
+[3.219s] Invoked command in '/home/johan/planning_with_ROS2_course/build/planning' returned '2': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/home/johan/planning_with_ROS2_course/install/planning/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --build /home/johan/planning_with_ROS2_course/build/planning -- -j16 -l16
