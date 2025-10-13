@@ -7,6 +7,7 @@ set(DEPENDS
   "base_msgs"
   "nav_msgs"
   "geometry_msgs"
+  "tf2"
   )
 
 
