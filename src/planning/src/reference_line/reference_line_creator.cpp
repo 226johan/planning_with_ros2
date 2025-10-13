@@ -9,7 +9,7 @@ namespace Planning
         // 读取配置文件
         reference_line_config_ = std::make_unique<ConfigReader>();
         reference_line_config_->read_reference_line_config();
-        // 创建平滑起
+        // 创建平滑器
         reference_line_smoother_ = std::make_shared<ReferenceLineSmoother>();
     }
     Referline ReferenceLineCreator::create_reference_line(const Path &global_path, const PoseStamped &target_point)
@@ -53,7 +53,15 @@ namespace Planning
     }
     Path ReferenceLineCreator::reference_to_rviz()
     {
-        return Path();
+        refer_line_rviz_.header = refer_line_.header;
+        refer_line_rviz_.poses.clear();
+        PoseStamped point_tmp;
+        for(const auto &point : refer_line_.refer_line){
+            point_tmp.header = refer_line_.header;
+            point_tmp.pose = point.pose.pose;
+            refer_line_rviz_.poses.emplace_back(point_tmp);
+        }
+        return refer_line_rviz_;
     }
     void ReferenceLineCreator::init_reference_line()
     {
