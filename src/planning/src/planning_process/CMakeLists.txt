@@ -29,6 +29,10 @@ ament_target_dependencies(${target}
 
 target_link_libraries(${target}
     config_reader
+    decision_center
+    vehicle_info
+    reference_line
+    local_planner
 )
 
 # 安装动态奎、节点和相关目录
