@@ -569,6 +569,11 @@ src/vehicle_info/CMakeFiles/vehicle_info.dir/clean:
 
 # All Build rule for target.
 src/planning_process/CMakeFiles/planning_process.dir/all: src/common/CMakeFiles/config_reader.dir/all
+src/planning_process/CMakeFiles/planning_process.dir/all: src/common/CMakeFiles/mathlibs.dir/all
+src/planning_process/CMakeFiles/planning_process.dir/all: src/decision_center/CMakeFiles/decision_center.dir/all
+src/planning_process/CMakeFiles/planning_process.dir/all: src/local_planner/CMakeFiles/local_planner.dir/all
+src/planning_process/CMakeFiles/planning_process.dir/all: src/reference_line/CMakeFiles/reference_line.dir/all
+src/planning_process/CMakeFiles/planning_process.dir/all: src/vehicle_info/CMakeFiles/vehicle_info.dir/all
 	$(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_process.dir/build.make src/planning_process/CMakeFiles/planning_process.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/planning_process/CMakeFiles/planning_process.dir/build.make src/planning_process/CMakeFiles/planning_process.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johan/planning_with_ROS2_course/build/planning/CMakeFiles --progress-num=22,23,24 "Built target planning_process"
@@ -576,7 +581,7 @@ src/planning_process/CMakeFiles/planning_process.dir/all: src/common/CMakeFiles/
 
 # Build rule for subdir invocation for target.
 src/planning_process/CMakeFiles/planning_process.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/planning_process/CMakeFiles/planning_process.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/johan/planning_with_ROS2_course/build/planning/CMakeFiles 0
 .PHONY : src/planning_process/CMakeFiles/planning_process.dir/rule

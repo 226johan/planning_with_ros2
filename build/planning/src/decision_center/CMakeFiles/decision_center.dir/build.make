@@ -95,6 +95,7 @@ src/decision_center/libdecision_center.so: src/decision_center/CMakeFiles/decisi
 src/decision_center/libdecision_center.so: src/vehicle_info/libvehicle_info.so
 src/decision_center/libdecision_center.so: src/common/libconfig_reader.so
 src/decision_center/libdecision_center.so: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
+src/decision_center/libdecision_center.so: /opt/ros/humble/lib/libtf2.so
 src/decision_center/libdecision_center.so: src/common/libmathlibs.so
 src/decision_center/libdecision_center.so: /opt/ros/humble/lib/librclcpp.so
 src/decision_center/libdecision_center.so: /opt/ros/humble/lib/liblibstatistics_collector.so

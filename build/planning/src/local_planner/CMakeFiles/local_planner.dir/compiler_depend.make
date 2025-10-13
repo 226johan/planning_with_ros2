@@ -964,6 +964,25 @@ src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_planner.cpp
   /usr/local/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
   /home/johan/planning_with_ROS2_course/src/planning/src/vehicle_info/main_car/main_car_info.h \
   /home/johan/planning_with_ROS2_course/src/planning/src/vehicle_info/vehicle_info_base.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.hpp \
+  /usr/include/c++/11/math.h \
+  /usr/include/c++/11/cfloat \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.hpp \
+  /opt/ros/humble/include/tf2/tf2/visibility_control.h \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.hpp \
   /home/johan/planning_with_ROS2_course/src/planning/src/decision_center/decision_center.h \
   /home/johan/planning_with_ROS2_course/src/planning/src/vehicle_info/main_car/main_car_info.h \
   /home/johan/planning_with_ROS2_course/src/planning/src/vehicle_info/obs_car/obs_car_info.h \
@@ -2617,6 +2636,61 @@ src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_planner
   /home/johan/planning_with_ROS2_course/src/planning/src/decision_center/decision_center.h \
   /home/johan/planning_with_ROS2_course/src/planning/src/vehicle_info/main_car/main_car_info.h \
   /home/johan/planning_with_ROS2_course/src/planning/src/vehicle_info/vehicle_info_base.h \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/referline.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__builder.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__type_support.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp \
+  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.hpp \
+  /usr/include/c++/11/math.h \
+  /usr/include/c++/11/cfloat \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.hpp \
+  /opt/ros/humble/include/tf2/tf2/visibility_control.h \
+  /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.hpp \
+  /home/johan/planning_with_ROS2_course/src/planning/src/common/math/curve.h \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/local_path.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__struct.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__struct.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__builder.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__traits.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__traits.hpp \
+  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__type_support.hpp \
   /home/johan/planning_with_ROS2_course/src/planning/src/vehicle_info/obs_car/obs_car_info.h \
   /home/johan/planning_with_ROS2_course/src/planning/src/local_planner/local_speeds/local_speeds_smoother.h
 
@@ -4073,6 +4147,16 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /home/johan/planning_with_ROS2_course/src/planning/src/local_planner/local_path/local_path_smoother.cpp:
 
+/opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.hpp:
+
+/opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.hpp:
+
+/usr/include/c++/11/cfloat:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp:
+
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
 
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h:
@@ -4131,6 +4215,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:
+
 /usr/local/include/eigen3/Eigen/src/Core/SolveTriangular.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h:
@@ -4144,6 +4230,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
+
+/opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
 
@@ -4279,6 +4367,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp:
 
+/opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:
 
 /opt/ros/humble/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
@@ -4300,6 +4390,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
 
 /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__traits.hpp:
 
@@ -4599,6 +4691,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:
+
 /usr/include/c++/11/bits/stl_heap.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp:
@@ -4895,6 +4989,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
+/opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp:
+
 /usr/include/c++/11/bits/exception_defines.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
@@ -5005,6 +5101,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/c++/11/iosfwd:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:
+
 /usr/include/c++/11/initializer_list:
 
 /usr/local/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
@@ -5016,6 +5114,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /usr/include/features-time64.h:
 
 /usr/include/c++/11/debug/debug.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
 
@@ -5075,6 +5175,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
@@ -5102,6 +5204,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h:
 
 /usr/include/c++/11/bits/invoke.h:
+
+/opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
 
@@ -5479,6 +5583,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h:
 
+/usr/include/c++/11/math.h:
+
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
@@ -5486,6 +5592,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /usr/local/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
 
 /opt/ros/humble/include/rmw/rmw/init_options.h:
+
+/opt/ros/humble/include/tf2/tf2/visibility_control.h:
 
 /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__traits.hpp:
 
@@ -5604,6 +5712,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/offered_deadline_missed.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:
 
@@ -5852,6 +5962,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp:
 

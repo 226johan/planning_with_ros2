@@ -156,9 +156,9 @@ src/local_planner/liblocal_planner.so: src/local_planner/CMakeFiles/local_planne
 src/local_planner/liblocal_planner.so: src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_planner.cpp.o
 src/local_planner/liblocal_planner.so: src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_smoother.cpp.o
 src/local_planner/liblocal_planner.so: src/local_planner/CMakeFiles/local_planner.dir/build.make
-src/local_planner/liblocal_planner.so: /opt/ros/humble/lib/libtf2.so
 src/local_planner/liblocal_planner.so: src/decision_center/libdecision_center.so
 src/local_planner/liblocal_planner.so: src/vehicle_info/libvehicle_info.so
+src/local_planner/liblocal_planner.so: /opt/ros/humble/lib/libtf2.so
 src/local_planner/liblocal_planner.so: src/common/libconfig_reader.so
 src/local_planner/liblocal_planner.so: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 src/local_planner/liblocal_planner.so: src/common/libmathlibs.so

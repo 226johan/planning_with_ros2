@@ -108,6 +108,7 @@ vehicle_info_EXTERNAL_OBJECTS =
 src/vehicle_info/libvehicle_info.so: src/vehicle_info/CMakeFiles/vehicle_info.dir/main_car/main_car_info.cpp.o
 src/vehicle_info/libvehicle_info.so: src/vehicle_info/CMakeFiles/vehicle_info.dir/obs_car/obs_car_info.cpp.o
 src/vehicle_info/libvehicle_info.so: src/vehicle_info/CMakeFiles/vehicle_info.dir/build.make
+src/vehicle_info/libvehicle_info.so: /opt/ros/humble/lib/libtf2.so
 src/vehicle_info/libvehicle_info.so: src/common/libconfig_reader.so
 src/vehicle_info/libvehicle_info.so: src/common/libmathlibs.so
 src/vehicle_info/libvehicle_info.so: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0

@@ -663,6 +663,64 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o: \
  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp \
  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp \
  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/static_transform_broadcaster.h \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/visibility_control.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/async_buffer_interface.h \
+ /opt/ros/humble/include/tf2/tf2/buffer_core.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.hpp \
+ /usr/include/c++/11/math.h /usr/include/c++/11/cfloat \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.hpp \
+ /opt/ros/humble/include/tf2/tf2/visibility_control.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp \
+ /opt/ros/humble/include/tf2/tf2/buffer_core_interface.hpp \
+ /opt/ros/humble/include/tf2/tf2/time.hpp \
+ /opt/ros/humble/include/tf2/tf2/exceptions.hpp \
+ /opt/ros/humble/include/tf2/tf2/transform_storage.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+ /opt/ros/humble/include/tf2/tf2/transform_datatypes.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h \
+ /opt/ros/humble/include/tf2/tf2/convert.hpp \
+ /opt/ros/humble/include/tf2/tf2/impl/convert.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/create_timer_interface.h \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/frame_graph.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__builder.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
  /home/johan/planning_with_ROS2_course/src/planning/src/common/config_reader/config_reader.h \
  /usr/include/yaml-cpp/yaml.h /usr/include/yaml-cpp/parser.h \
  /usr/include/yaml-cpp/dll.h /usr/include/yaml-cpp/emitter.h \
@@ -690,8 +748,6 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o: \
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
  /home/johan/planning_with_ROS2_course/src/planning/src/vehicle_info/main_car/main_car_info.h \
  /home/johan/planning_with_ROS2_course/src/planning/src/vehicle_info/vehicle_info_base.h \
- /home/johan/planning_with_ROS2_course/src/planning/src/vehicle_info/obs_car/obs_car_info.h \
- /home/johan/planning_with_ROS2_course/src/planning/src/reference_line/reference_line_creator.h \
  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/referline.hpp \
  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__struct.hpp \
  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__struct.hpp \
@@ -699,13 +755,6 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o: \
  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__traits.hpp \
  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__traits.hpp \
  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline__type_support.hpp \
- /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/referline_point.hpp \
- /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__builder.hpp \
- /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__type_support.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /home/johan/planning_with_ROS2_course/src/planning/src/common/math/curve.h \
  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/local_path.hpp \
  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__struct.hpp \
@@ -714,6 +763,11 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o: \
  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__traits.hpp \
  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path_point__traits.hpp \
  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/local_path__type_support.hpp \
+ /home/johan/planning_with_ROS2_course/src/planning/src/vehicle_info/obs_car/obs_car_info.h \
+ /home/johan/planning_with_ROS2_course/src/planning/src/reference_line/reference_line_creator.h \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/referline_point.hpp \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__builder.hpp \
+ /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__type_support.hpp \
  /home/johan/planning_with_ROS2_course/src/planning/src/reference_line/reference_line_smoother.h \
  /home/johan/planning_with_ROS2_course/src/planning/src/decision_center/decision_center.h \
  /home/johan/planning_with_ROS2_course/src/planning/src/local_planner/local_path/local_path_planner.h \
@@ -773,24 +827,24 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o: \
  /usr/local/include/eigen3/Eigen/src/Core/IO.h \
  /usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
  /usr/local/include/eigen3/Eigen/src/Core/DenseBase.h \
- /usr/local/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h \
- /usr/local/include/eigen3/Eigen/src/Core/../plugins/BlockMethods.h \
- /usr/local/include/eigen3/Eigen/src/Core/../plugins/IndexedViewMethods.h \
- /usr/local/include/eigen3/Eigen/src/Core/../plugins/IndexedViewMethods.h \
- /usr/local/include/eigen3/Eigen/src/Core/../plugins/ReshapedMethods.h \
- /usr/local/include/eigen3/Eigen/src/Core/../plugins/ReshapedMethods.h \
+ /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+ /usr/local/include/eigen3/Eigen/src/plugins/BlockMethods.h \
+ /usr/local/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h \
+ /usr/local/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h \
+ /usr/local/include/eigen3/Eigen/src/plugins/ReshapedMethods.h \
+ /usr/local/include/eigen3/Eigen/src/plugins/ReshapedMethods.h \
  /usr/local/include/eigen3/Eigen/src/Core/MatrixBase.h \
- /usr/local/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h \
- /usr/local/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h \
- /usr/local/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h \
+ /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+ /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+ /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
  /usr/local/include/eigen3/Eigen/src/Core/EigenBase.h \
  /usr/local/include/eigen3/Eigen/src/Core/Product.h \
  /usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h \
  /usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h \
  /usr/local/include/eigen3/Eigen/src/Core/Assign.h \
  /usr/local/include/eigen3/Eigen/src/Core/ArrayBase.h \
- /usr/local/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h \
- /usr/local/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h \
+ /usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h \
+ /usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h \
  /usr/local/include/eigen3/Eigen/src/Core/util/BlasUtil.h \
  /usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h \
  /usr/local/include/eigen3/Eigen/src/Core/NestByValue.h \
@@ -908,19 +962,19 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o: \
  /usr/local/include/eigen3/Eigen/Eigenvalues \
  /usr/local/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
  /usr/local/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
- /usr/local/include/eigen3/Eigen/src/Eigenvalues/./HessenbergDecomposition.h \
+ /usr/local/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
  /usr/local/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
- /usr/local/include/eigen3/Eigen/src/Eigenvalues/./RealSchur.h \
+ /usr/local/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
  /usr/local/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
- /usr/local/include/eigen3/Eigen/src/Eigenvalues/./Tridiagonalization.h \
+ /usr/local/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
  /usr/local/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
  /usr/local/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
  /usr/local/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
  /usr/local/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
- /usr/local/include/eigen3/Eigen/src/Eigenvalues/./ComplexSchur.h \
+ /usr/local/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
  /usr/local/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
  /usr/local/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
- /usr/local/include/eigen3/Eigen/src/Eigenvalues/./RealQZ.h \
+ /usr/local/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
  /usr/local/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
  /home/johan/planning_with_ROS2_course/src/planning/src/vehicle_info/main_car/main_car_info.h \
  /home/johan/planning_with_ROS2_course/src/planning/src/local_planner/local_path/local_path_smoother.h \

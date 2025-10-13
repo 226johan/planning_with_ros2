@@ -1,0 +1,445 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3a5d0a29536a9ef0845e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						9,
+						13
+					]
+				},
+				{
+					"build" : "src/common",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.common-736c542067999fe2c514.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src/common",
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				},
+				{
+					"build" : "src/decision_center",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.decision_center-07f97d9ce6ee98386ea9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "src/decision_center",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/pnc_map_creator",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.pnc_map_creator-68177594b6d8d9261ab3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "src/pnc_map_creator",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"build" : "src/global_planner",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.global_planner-7c6356aa7bf99fc88a0f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "src/global_planner",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "src/local_planner",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.local_planner-7418c27ad45dd89bbb73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "src/local_planner",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/reference_line",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.reference_line-d30fdb9f4f3659990810.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "src/reference_line",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "src/vehicle_info",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.vehicle_info-198e49b4a815a492825a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "src/vehicle_info",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "src/planning_process",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.planning_process-6fc676bd07d3939b6907.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "src/planning_process",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "src/move_cmd",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.move_cmd-b31d349d95e61bfd00d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "src/move_cmd",
+					"targetIndexes" : 
+					[
+						0,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "planning",
+					"targetIndexes" : 
+					[
+						9,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "decision_center",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "pnc_map_creator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "global_planner",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "local_planner",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "reference_line",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "vehicle_info",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "planning_process",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "move_cmd",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 9,
+					"id" : "car_move_cmd::@cec872b6cd75951f118b",
+					"jsonFile" : "target-car_move_cmd-9139b6b099ad6b00eaf6.json",
+					"name" : "car_move_cmd",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "config_reader::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-config_reader-ee8f75c0f70f27fb7e50.json",
+					"name" : "config_reader",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "decision_center::@1bcb7a886c079bd84f43",
+					"jsonFile" : "target-decision_center-cd582900168608347f2a.json",
+					"name" : "decision_center",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "global_path_server::@a20f607cc12154404d96",
+					"jsonFile" : "target-global_path_server-7f36209c96c76027c562.json",
+					"name" : "global_path_server",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "global_planner::@a20f607cc12154404d96",
+					"jsonFile" : "target-global_planner-3e76a9ab951e5d1e5878.json",
+					"name" : "global_planner",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "local_planner::@cdee42f20af7897c9c84",
+					"jsonFile" : "target-local_planner-8b4c908daea4a66d7f5e.json",
+					"name" : "local_planner",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mathlibs::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-mathlibs-cc53d773f5ce41c8c603.json",
+					"name" : "mathlibs",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "obj_move_cmd::@cec872b6cd75951f118b",
+					"jsonFile" : "target-obj_move_cmd-6a5d96c69af6ee8f10d6.json",
+					"name" : "obj_move_cmd",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "planning_process::@7f6d08f3b5f751c4407d",
+					"jsonFile" : "target-planning_process-0718ee35498a2e86ab94.json",
+					"name" : "planning_process",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "planning_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-planning_uninstall-61ad79be925029a5a901.json",
+					"name" : "planning_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "pnc_map_creator::@5e20e04eb83558ee8eab",
+					"jsonFile" : "target-pnc_map_creator-3645920b419de692cf6e.json",
+					"name" : "pnc_map_creator",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "pnc_map_server::@5e20e04eb83558ee8eab",
+					"jsonFile" : "target-pnc_map_server-2e47458586ef4e1fed9e.json",
+					"name" : "pnc_map_server",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "reference_line::@b4f8f167b485afe84056",
+					"jsonFile" : "target-reference_line-ba62daba984717c057fc.json",
+					"name" : "reference_line",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d34b7d77f34e7909e030.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "vehicle_info::@ebdaead5d1a9e71100cc",
+					"jsonFile" : "target-vehicle_info-506a90be17f5d2d8bfe2.json",
+					"name" : "vehicle_info",
+					"projectIndex" : 7
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/johan/planning_with_ROS2_course/build/planning",
+		"source" : "/home/johan/planning_with_ROS2_course/src/planning"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
