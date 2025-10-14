@@ -43,6 +43,7 @@ include_directories(
   src/vehicle_info/obs_car
   src/planning_process
   src/move_cmd
+  src/test/osqp_test
 )
 
 # find dependencies
@@ -62,6 +63,7 @@ find_package(OsqpEigen REQUIRED)
 
 # 添加子目录
 add_subdirectory(src/common)
+add_subdirectory(src/test)
 add_subdirectory(src/decision_center)
 add_subdirectory(src/pnc_map_creator)
 add_subdirectory(src/global_planner)
