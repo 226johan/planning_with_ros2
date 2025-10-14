@@ -16,6 +16,14 @@
 /home/johan/planning_with_ROS2_course/build/planning/src/common/CMakeFiles/install.dir
 /home/johan/planning_with_ROS2_course/build/planning/src/common/CMakeFiles/install/local.dir
 /home/johan/planning_with_ROS2_course/build/planning/src/common/CMakeFiles/install/strip.dir
+/home/johan/planning_with_ROS2_course/build/planning/src/test/CMakeFiles/osqp_test.dir
+/home/johan/planning_with_ROS2_course/build/planning/src/test/CMakeFiles/test.dir
+/home/johan/planning_with_ROS2_course/build/planning/src/test/CMakeFiles/edit_cache.dir
+/home/johan/planning_with_ROS2_course/build/planning/src/test/CMakeFiles/rebuild_cache.dir
+/home/johan/planning_with_ROS2_course/build/planning/src/test/CMakeFiles/list_install_components.dir
+/home/johan/planning_with_ROS2_course/build/planning/src/test/CMakeFiles/install.dir
+/home/johan/planning_with_ROS2_course/build/planning/src/test/CMakeFiles/install/local.dir
+/home/johan/planning_with_ROS2_course/build/planning/src/test/CMakeFiles/install/strip.dir
 /home/johan/planning_with_ROS2_course/build/planning/src/decision_center/CMakeFiles/decision_center.dir
 /home/johan/planning_with_ROS2_course/build/planning/src/decision_center/CMakeFiles/test.dir
 /home/johan/planning_with_ROS2_course/build/planning/src/decision_center/CMakeFiles/edit_cache.dir

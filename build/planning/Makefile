@@ -224,6 +224,19 @@ mathlibs/fast:
 .PHONY : mathlibs/fast
 
 #=============================================================================
+# Target rules for targets named osqp_test
+
+# Build rule for target.
+osqp_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 osqp_test
+.PHONY : osqp_test
+
+# fast build rule for target.
+osqp_test/fast:
+	$(MAKE) $(MAKESILENT) -f src/test/CMakeFiles/osqp_test.dir/build.make src/test/CMakeFiles/osqp_test.dir/build
+.PHONY : osqp_test/fast
+
+#=============================================================================
 # Target rules for targets named decision_center
 
 # Build rule for target.
@@ -389,6 +402,7 @@ help:
 	@echo "... local_planner"
 	@echo "... mathlibs"
 	@echo "... obj_move_cmd"
+	@echo "... osqp_test"
 	@echo "... planning_process"
 	@echo "... pnc_map_creator"
 	@echo "... pnc_map_server"

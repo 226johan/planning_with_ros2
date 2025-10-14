@@ -49,6 +49,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/johan/planning_with_ROS2_course/build/planning/src/test/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/johan/planning_with_ROS2_course/build/planning/src/decision_center/cmake_install.cmake")
 endif()
 

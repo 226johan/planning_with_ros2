@@ -5,6 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("src/common")
+subdirs("src/test")
 subdirs("src/decision_center")
 subdirs("src/pnc_map_creator")
 subdirs("src/global_planner")
