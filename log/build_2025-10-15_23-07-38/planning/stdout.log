@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target osqp_test[0m
+[  5%] Built target config_reader
+[ 13%] Built target mathlibs
+[ 18%] Built target car_move_cmd
+[ 23%] Built target obj_move_cmd
+[ 31%] Built target global_planner
+[ 34%] Built target osqp_test
+[ 44%] Built target pnc_map_creator
+[ 52%] Built target vehicle_info
+[ 57%] [32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_smoother.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_creator.cpp.o[0m
+[ 63%] Built target global_path_server
+[ 68%] Built target pnc_map_server
+[ 73%] Built target decision_center
+[ 89%] Built target local_planner

@@ -1,0 +1,33 @@
+[0.219s] Invoking command in '/home/johan/planning_with_ROS2_course/build/planning': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/home/johan/planning_with_ROS2_course/install/planning/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --build /home/johan/planning_with_ROS2_course/build/planning -- -j16 -l16
+[0.262s] [35m[1mConsolidate compiler generated dependencies of target osqp_test[0m
+[0.265s] [  5%] Built target config_reader
+[0.266s] [ 13%] Built target mathlibs
+[0.273s] [ 18%] Built target car_move_cmd
+[0.276s] [ 23%] Built target obj_move_cmd
+[0.284s] [ 31%] Built target global_planner
+[0.284s] [ 34%] Built target osqp_test
+[0.290s] [ 44%] Built target pnc_map_creator
+[0.293s] [ 52%] Built target vehicle_info
+[0.297s] [ 57%] [32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_smoother.cpp.o[0m
+[0.297s] [ 57%] [32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_creator.cpp.o[0m
+[0.302s] [ 63%] Built target global_path_server
+[0.309s] [ 68%] Built target pnc_map_server
+[0.311s] [ 73%] Built target decision_center
+[0.338s] [ 89%] Built target local_planner
+[0.473s] In file included from [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/reference_line/reference_line_smoother.cpp:1[m[K:
+[0.473s] [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/reference_line/reference_line_smoother.h:5:9:[m[K [01;31m[Kfatal error: [m[Kbase_msgs/msg/reference_line.hpp: 没有那个文件或目录
+[0.473s]     5 | #include[01;31m[K"base_msgs/msg/reference_line.hpp"[m[K
+[0.473s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.474s] compilation terminated.
+[0.475s] gmake[2]: *** [src/reference_line/CMakeFiles/reference_line.dir/build.make:90：src/reference_line/CMakeFiles/reference_line.dir/reference_line_smoother.cpp.o] 错误 1
+[0.476s] gmake[2]: *** 正在等待未完成的任务....
+[0.483s] In file included from [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/reference_line/reference_line_creator.h:13[m[K,
+[0.483s]                  from [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/reference_line/reference_line_creator.cpp:1[m[K:
+[0.483s] [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/reference_line/reference_line_smoother.h:5:9:[m[K [01;31m[Kfatal error: [m[Kbase_msgs/msg/reference_line.hpp: 没有那个文件或目录
+[0.483s]     5 | #include[01;31m[K"base_msgs/msg/reference_line.hpp"[m[K
+[0.483s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.483s] compilation terminated.
+[0.486s] gmake[2]: *** [src/reference_line/CMakeFiles/reference_line.dir/build.make:76：src/reference_line/CMakeFiles/reference_line.dir/reference_line_creator.cpp.o] 错误 1
+[0.486s] gmake[1]: *** [CMakeFiles/Makefile2:564：src/reference_line/CMakeFiles/reference_line.dir/all] 错误 2
+[0.486s] gmake: *** [Makefile:146：all] 错误 2
+[0.489s] Invoked command in '/home/johan/planning_with_ROS2_course/build/planning' returned '2': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/home/johan/planning_with_ROS2_course/install/planning/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --build /home/johan/planning_with_ROS2_course/build/planning -- -j16 -l16

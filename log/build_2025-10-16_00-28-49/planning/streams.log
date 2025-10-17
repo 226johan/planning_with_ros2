@@ -1,0 +1,31 @@
+[0.198s] Invoking command in '/home/johan/planning_with_ROS2_course/build/planning': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/home/johan/planning_with_ROS2_course/install/planning/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --build /home/johan/planning_with_ROS2_course/build/planning -- -j16 -l16
+[0.236s] [  5%] Built target config_reader
+[0.236s] [ 13%] Built target mathlibs
+[0.245s] [ 18%] Built target obj_move_cmd
+[0.247s] [ 23%] Built target car_move_cmd
+[0.248s] [ 28%] Built target osqp_test
+[0.254s] [35m[1mConsolidate compiler generated dependencies of target reference_line[0m
+[0.258s] [ 36%] Built target vehicle_info
+[0.259s] [ 47%] Built target pnc_map_creator
+[0.261s] [ 52%] Built target global_planner
+[0.271s] [ 55%] [32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_smoother.cpp.o[0m
+[0.273s] [ 57%] [32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_creator.cpp.o[0m
+[0.276s] [ 63%] Built target decision_center
+[0.285s] [ 68%] Built target pnc_map_server
+[0.291s] [ 73%] Built target global_path_server
+[0.304s] [ 89%] Built target local_planner
+[2.473s] [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/reference_line/reference_line_smoother.cpp:[m[K In member function ‘[01m[Kbool Planning::ReferenceLineSmoother::OsqpSolver(const int&, const Eigen::SparseMatrix<double, 0, int>&, const VectorXd&, const Eigen::SparseMatrix<double, 0, int>&, Eigen::VectorXd, Eigen::VectorXd, Eigen::VectorXd&)[m[K’:
+[2.473s] [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/reference_line/reference_line_smoother.cpp:173:40:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::Ref<PlainObjectType, Options, StrideType>::Ref(const Eigen::PlainObjectBase<OtherDerived>&, typename Eigen::internal::enable_if<(bool)(typename Eigen::internal::traits<Eigen::Ref<PlainObjectType, RefOptions, StrideType> >::match<Derived>::MatchAtCompileTime), Derived>::type*) [with Derived = Eigen::Matrix<double, -1, 1>; PlainObjectType = Eigen::Matrix<double, -1, 1>; int Options = 0; StrideType = Eigen::InnerStride<1>; typename Eigen::internal::enable_if<(bool)(typename Eigen::internal::traits<Eigen::Ref<PlainObjectType, RefOptions, StrideType> >::match<Derived>::MatchAtCompileTime), Derived>::type = Eigen::Matrix<double, -1, 1>; typename Eigen::internal::traits<Eigen::Ref<PlainObjectType, RefOptions, StrideType> >::match<Derived> = Eigen::internal::traits<Eigen::Ref<Eigen::Matrix<double, -1, 1> > >::match<Eigen::Matrix<double, -1, 1> >][m[K’ is private within this context
+[2.473s]   173 |         if (![01;31m[Ksolver.data()->setGradient(Q)[m[K)
+[2.473s]       |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.473s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:308[m[K,
+[2.473s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[2.473s]                  from [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/reference_line/reference_line_smoother.h:7[m[K,
+[2.473s]                  from [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/reference_line/reference_line_smoother.cpp:1[m[K:
+[2.473s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/Ref.h:287:30:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.473s]   287 |     EIGEN_DEVICE_FUNC inline [01;36m[KRef[m[K(const PlainObjectBase<Derived>& expr,
+[2.474s]       |                              [01;36m[K^~~[m[K
+[2.966s] gmake[2]: *** [src/reference_line/CMakeFiles/reference_line.dir/build.make:90：src/reference_line/CMakeFiles/reference_line.dir/reference_line_smoother.cpp.o] 错误 1
+[2.967s] gmake[1]: *** [CMakeFiles/Makefile2:564：src/reference_line/CMakeFiles/reference_line.dir/all] 错误 2
+[2.967s] gmake: *** [Makefile:146：all] 错误 2
+[2.969s] Invoked command in '/home/johan/planning_with_ROS2_course/build/planning' returned '2': CMAKE_PREFIX_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs:/home/johan/planning_with_ROS2_course/install/planning:/home/johan/planning_with_ROS2_course/install/data_plot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/planning_with_ROS2_course/install/base_msgs/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/home/johan/planning_with_ROS2_course/install/planning/lib:/home/johan/planning_with_ROS2_course/install/planning/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --build /home/johan/planning_with_ROS2_course/build/planning -- -j16 -l16

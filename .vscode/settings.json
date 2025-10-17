@@ -19,6 +19,12 @@
         "dense": "cpp",
         "functional": "cpp",
         "type_traits": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "ranges": "cpp",
+        "span": "cpp",
+        "vector": "cpp"
     }
 }

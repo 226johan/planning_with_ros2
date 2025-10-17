@@ -769,9 +769,6 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o: \
  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__builder.hpp \
  /home/johan/planning_with_ROS2_course/install/base_msgs/include/base_msgs/base_msgs/msg/detail/referline_point__type_support.hpp \
  /home/johan/planning_with_ROS2_course/src/planning/src/reference_line/reference_line_smoother.h \
- /home/johan/planning_with_ROS2_course/src/planning/src/decision_center/decision_center.h \
- /home/johan/planning_with_ROS2_course/src/planning/src/local_planner/local_path/local_path_planner.h \
- /home/johan/planning_with_ROS2_course/src/planning/src/common/math/polynomial_curve.h \
  /usr/local/include/eigen3/Eigen/Dense \
  /usr/local/include/eigen3/Eigen/Core \
  /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
@@ -976,6 +973,99 @@ src/planning_process/CMakeFiles/planning_process.dir/planning_process.cpp.o: \
  /usr/local/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /usr/local/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
  /usr/local/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+ /usr/local/include/OsqpEigen/OsqpEigen.h \
+ /usr/local/include/OsqpEigen/Constants.hpp \
+ /usr/local/include/OsqpEigen/Compat.hpp /usr/local/include/osqp/osqp.h \
+ /usr/local/include/osqp/osqp_configure.h \
+ /usr/local/include/osqp/osqp_api_constants.h \
+ /usr/local/include/osqp/osqp_api_types.h \
+ /usr/local/include/osqp/osqp_api_functions.h \
+ /usr/local/include/osqp/osqp_export_define.h \
+ /usr/local/include/OsqpEigen/Data.hpp \
+ /usr/local/include/OsqpEigen/SparseMatrixHelper.hpp \
+ /usr/local/include/eigen3/Eigen/Sparse \
+ /usr/local/include/eigen3/Eigen/SparseCore \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h \
+ /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+ /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+ /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+ /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+ /usr/local/include/eigen3/Eigen/src/plugins/BlockMethods.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseAssign.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/AmbiVector.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseMap.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseVector.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseRef.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseBlock.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseDot.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseRedux.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseView.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseProduct.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h \
+ /usr/local/include/eigen3/Eigen/OrderingMethods \
+ /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h \
+ /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h \
+ /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h \
+ /usr/local/include/eigen3/Eigen/SparseCholesky \
+ /usr/local/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h \
+ /usr/local/include/eigen3/Eigen/SparseLU \
+ /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h \
+ /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h \
+ /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h \
+ /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h \
+ /usr/local/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h \
+ /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h \
+ /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h \
+ /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h \
+ /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h \
+ /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h \
+ /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h \
+ /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h \
+ /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h \
+ /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h \
+ /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h \
+ /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h \
+ /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h \
+ /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU.h \
+ /usr/local/include/eigen3/Eigen/SparseQR \
+ /usr/local/include/eigen3/Eigen/src/SparseQR/SparseQR.h \
+ /usr/local/include/eigen3/Eigen/IterativeLinearSolvers \
+ /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h \
+ /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h \
+ /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h \
+ /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h \
+ /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h \
+ /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
+ /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
+ /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
+ /usr/local/include/OsqpEigen/SparseMatrixHelper.tpp \
+ /usr/local/include/OsqpEigen/Debug.hpp \
+ /usr/local/include/OsqpEigen/Data.tpp \
+ /usr/local/include/OsqpEigen/Settings.hpp \
+ /usr/local/include/OsqpEigen/Solver.hpp \
+ /usr/local/include/OsqpEigen/Solver.tpp \
+ /usr/local/include/OsqpEigen/Debug.hpp \
+ /home/johan/planning_with_ROS2_course/src/planning/src/decision_center/decision_center.h \
+ /home/johan/planning_with_ROS2_course/src/planning/src/local_planner/local_path/local_path_planner.h \
+ /home/johan/planning_with_ROS2_course/src/planning/src/common/math/polynomial_curve.h \
  /home/johan/planning_with_ROS2_course/src/planning/src/vehicle_info/main_car/main_car_info.h \
  /home/johan/planning_with_ROS2_course/src/planning/src/local_planner/local_path/local_path_smoother.h \
  /home/johan/planning_with_ROS2_course/src/planning/src/local_planner/local_speeds/local_speeds_planner.h \
