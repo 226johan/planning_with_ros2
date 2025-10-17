@@ -43,7 +43,8 @@ namespace Planning
             point_tmp.pose = global_path.poses[i];
             refer_line_.refer_line.emplace_back(point_tmp);
         }
-        // 平滑
+        // 平滑参考线
+        reference_line_smoother_->smooth_reference_line(refer_line_);
 
         // 计算投影点参数
         Curve::cal_projection_param(refer_line_);
