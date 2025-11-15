@@ -1,8 +1,0 @@
-/usr/bin/ld: CMakeFiles/planning_process.dir/planning_process.cpp.o: in function `void __gnu_cxx::new_allocator<Planning::MainCar>::construct<Planning::MainCar>(Planning::MainCar*)':
-planning_process.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN8Planning7MainCarEE9constructIS2_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN8Planning7MainCarEE9constructIS2_JEEEvPT_DpOT0_]+0x31): undefined reference to `Planning::MainCar::MainCar()'
-/usr/bin/ld: CMakeFiles/planning_process.dir/planning_process.cpp.o: in function `void __gnu_cxx::new_allocator<Planning::ReferenceLineCreator>::construct<Planning::ReferenceLineCreator>(Planning::ReferenceLineCreator*)':
-planning_process.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN8Planning20ReferenceLineCreatorEE9constructIS2_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN8Planning20ReferenceLineCreatorEE9constructIS2_JEEEvPT_DpOT0_]+0x31): undefined reference to `Planning::ReferenceLineCreator::ReferenceLineCreator()'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [src/planning_process/CMakeFiles/planning_process.dir/build.make:247：src/planning_process/planning_process] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:573：src/planning_process/CMakeFiles/planning_process.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2

@@ -1,4 +1,0 @@
-In file included from [01m[K/home/johan/planning_with_ROS2_course/src/planning/src/test/osqp_test/osqp_test.cpp:1[m[K:
-[01m[K/home/johan/planning_with_ROS2_course/src/planning/src/test/osqp_test/osqp_test.h:19:8:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #endif directive [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wendif-labels-Wendif-labels]8;;[m[K]
-   19 | #endif [01;35m[KTEST_H_[m[K
-      |        [01;35m[K^~~~~~~[m[K
