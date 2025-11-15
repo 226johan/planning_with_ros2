@@ -17,11 +17,14 @@ def generate_launch_description():
         planning_path,"urdf/main_car","car.xacro"
     )
 
+    obs_car_path = os.path.join(planning_path,"urdf/obs_car","obs_car.xacro")
+
     # get rviz path
     rviz_conf_path = os.path.join(planning_path,'rviz','planning.rviz')
 
     # run  urdf commond
     car_para = ParameterValue(Command(["xacro ",car_path]))
+    obs_car_para = ParameterValue(Command(["xacro ",obs_car_path]))
 
     # robot state publisher node
     car_state_pub = Node(
@@ -30,6 +33,14 @@ def generate_launch_description():
         name="car_state_pub",
         output="screen",
         parameters=[{"robot_description":car_para}],
+    )
+
+    obs_car_state_pub = Node(
+        package="robot_state_publisher",
+        executable="robot_state_publisher",
+        name="obs_car_state_pub",
+        output="screen",
+        parameters=[{"robot_description":obs_car_para}],
     )
 
     # joint_state_publisher node
@@ -44,6 +55,12 @@ def generate_launch_description():
         package="joint_state_publisher",
         executable="joint_state_publisher",
         name="car_joint_state_pub",
+    )
+
+    obs_car_joint_state_pub = Node(
+        package="joint_state_publisher",
+        executable="joint_state_publisher",
+        name="obs_car_joint_state_pub",
     )
 
     # rviz node
@@ -83,6 +100,14 @@ def generate_launch_description():
         ]
     )
 
+    obs_car = GroupAction(
+        actions=[
+            PushRosNamespace("obs_car"),
+            obs_car_state_pub,
+            obs_car_joint_state_pub,
+        ]
+    )
+
     planning = GroupAction(
         actions=[
             PushRosNamespace("planning"),
@@ -95,6 +120,7 @@ def generate_launch_description():
     return LaunchDescription(
         [
             car_main,
+            obs_car,
             planning,
             rviz2
         ]

@@ -26,6 +26,7 @@ namespace Planning
 
         Referline create_reference_line(const Path &global_path,
                                         const PoseStamped &target_point); // 生成参考线
+        // Referline create_reference_line(const Referline &reference_line); // 参考线拼接
         Path reference_to_rviz();
 
         void init_reference_line();

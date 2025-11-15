@@ -23,7 +23,7 @@ vehicle:                            #　车辆
     length: 3.0
     width: 1.6
     pose_x: 120.0
-    pose_y: 16.0
+    pose_y: 17.0
     pose_theta: 1.0
     speed_ori: 0.0
   obs_car3:
@@ -38,7 +38,7 @@ vehicle:                            #　车辆
 
 pnc_map:                            #　pnc地图
   frame: "map"                      #　坐标名
-  type: 0                           #　类型,　0:straight, 1:turn1, 2:topo,
+  type: 1                           #　类型,　0:straight, 1:turn1, 2:topo,
   road_length: 250.0                #　道路长度
   road_half_width: 4.0              #　车道半宽
   segment_len: 0.5                  #　分段长度

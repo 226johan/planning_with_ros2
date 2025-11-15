@@ -15,6 +15,11 @@ namespace Planning
 
         // 创建车辆和障碍物
         car_ = std::make_shared<MainCar>();
+        for (int i = 0; i < 3; i++)
+        {
+            auto obs_car_ = std::make_shared<ObsCar>(i + 1);
+            obses_spawn_.emplace_back(obs_car_);
+        }
 
         // 坐标广播器
         tf_broadcaster_ = std::make_shared<StaticTransformBroadcaster>(this);
@@ -53,6 +58,10 @@ namespace Planning
     {
         // 生成车辆
         vehicle_spawn(car_);
+        for (const auto &obs : obses_spawn_)
+        {
+            vehicle_spawn(obs);
+        }
 
         // 连接地图服务器
         if (!connect_server(map_client_))
@@ -215,6 +224,18 @@ namespace Planning
         const auto start_time = this->get_clock()->now();
         // 监听车辆定位
         get_location(car_);
+        obses_.clear();
+        // 需要考虑的障碍物
+        for (const auto &obs : obses_spawn_)
+        {
+            get_location(obs);
+            if (std::hypot(car_->loc_point().pose.position.x - obs->loc_point().pose.position.x,
+                           car_->loc_point().pose.position.y - obs->loc_point().pose.position.y) > obs_dis_)
+            {
+                continue;
+            }
+            obses_.emplace_back(obs);
+        }
 
         // 参考线
         const auto refer_line = refer_line_creator_->create_reference_line(global_path_, car_->loc_point());
@@ -227,8 +248,16 @@ namespace Planning
         refer_line_pub_->publish(refer_line_rviz);
 
         // 主车和参考线向参考线投影
+        car_->vechicle_cartesin_to_frent(refer_line);
+        for (const auto &obs : obses_)
+        {
+            obs->vechicle_cartesin_to_frent(refer_line);
+        }
 
         // 障碍物按s值排序
+        std::sort(obses_.begin(), obses_.end(),
+                  [](const std::shared_ptr<VehicleBase> &obs1, const std::shared_ptr<VehicleBase> &obs2)
+                  { return obs1->to_path_frenet_params().s < obs2->to_path_frenet_params().s; });
 
         // 路径决策
 
@@ -256,7 +285,8 @@ namespace Planning
         RCLCPP_INFO(this->get_logger(), "planning total time: %.2f ms", planning_total_time * 1000);
 
         // 防止系统法卡死
-        if(planning_total_time >1.0){
+        if (planning_total_time > 1.0)
+        {
             RCLCPP_ERROR(this->get_logger(), "planning time too long!");
             rclcpp::shutdown();
         }

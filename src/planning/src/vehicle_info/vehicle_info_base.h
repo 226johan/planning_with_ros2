@@ -21,9 +21,10 @@ namespace Planning
     {
     public:
         // 更新参数
-        inline void update_location(const PoseStamped &loc){loc_point_ = loc;}
-        
+        inline void update_location(const PoseStamped &loc) { loc_point_ = loc; }
+
         // 定位转frenet
+        virtual void vechicle_cartesin_to_frent(const Referline &refer_line) = 0 ; // 定位点在参考线上的投影点参数
 
         inline std::string child_frame() const { return child_frame_; }
         inline double length() const { return length_; }
@@ -35,7 +36,11 @@ namespace Planning
         inline double speed() const { return speed_; }
         inline double acceleration() const { return acceleration_; }
         inline double dacceleration() const { return dacceleration_; }
-        
+
+        // 向参考线投影的frenet参数
+        inline ToFrenetInPutTP to_refline_frenet_params() const { return to_refline_frenet_params_; }
+        inline ToFrenetOutTP to_path_frenet_params() const { return to_path_frenet_params_; }
+
         virtual ~VehicleBase() {}
 
     protected:
@@ -46,16 +51,17 @@ namespace Planning
         double width_ = 0.0;                           // 宽
         int id_ = 0;                                   // 序号
         // 笛卡尔参数
-        PoseStamped loc_point_;     // 车辆位姿
+        PoseStamped loc_point_;      // 车辆位姿
         double theta_ = 0.0;         // 航向角
         double kappa_ = 0.0;         // 曲率
         double speed_ = 0.0;         // 速度
         double acceleration_ = 0.0;  // 加速度
         double dacceleration_ = 0.0; // 纵向加加速度
+        
         // 向参考线投影的frenet参数
-
+        ToFrenetInPutTP to_refline_frenet_params_;
         // 向路径投影的frenet参数
-
+        ToFrenetOutTP to_path_frenet_params_;
         // 时间参数
     };
 } // namespace Planning

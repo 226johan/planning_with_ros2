@@ -2,6 +2,85 @@
 
 namespace Planning
 {
+    double Curve::NormalizeAngle(const double &angle)
+    {
+        double a = std::fmod(angle + M_PI, 2.0 * M_PI);
+        if (a < 0.0)
+        {
+            a += (2.0 * M_PI);
+        }
+
+        return a - M_PI;
+    }
+
+    void Curve::cartensian_to_frenet(const ToFrenetInPutTP &cartensian_input, ToFrenetOutTP &frenet_output)
+    {
+        // 计算s
+        frenet_output.s = cartensian_input.rs;
+        // 计算l
+        const double dx = cartensian_input.x - cartensian_input.rx;
+        const double dy = cartensian_input.y - cartensian_input.ry;
+
+        const double cos_theta_r = std::cos(cartensian_input.rtheta);
+        const double sin_theta_r = std::sin(cartensian_input.rtheta);
+
+        const double cross_r_x = cos_theta_r * dy - sin_theta_r * dx;
+        frenet_output.l = std::copysign(std::hypot(dx, dy), cross_r_x);
+        // 计算l'=dl/ds
+        const double delta_theta = cartensian_input.theta - cartensian_input.rtheta;
+        const double tan_delta_theta = std::tan(delta_theta);
+        const double cos_delta_theta = std::cos(delta_theta);
+        const double sin_delta_theta = std::sin(delta_theta);
+        const double one_minus_kappa_l = 1 - cartensian_input.rkappa * frenet_output.l;
+        frenet_output.dl_ds = one_minus_kappa_l * tan_delta_theta;
+
+        // 计算l''=ddl/ds
+        const double kappa_l_prime = cartensian_input.rdkappa * frenet_output.l + cartensian_input.rkappa * frenet_output.dl_ds;
+        const double delta_theta_prime = one_minus_kappa_l / cos_delta_theta * cartensian_input.kappa - cartensian_input.rkappa;
+        frenet_output.ddl_ds = -kappa_l_prime * tan_delta_theta + one_minus_kappa_l / (cos_delta_theta * cos_delta_theta) * delta_theta_prime;
+        // 计算ds/dt
+        frenet_output.ds_dt = cartensian_input.speed * cos_delta_theta / one_minus_kappa_l;
+        // 计算dds/dt
+        frenet_output.dds_dt = (cartensian_input.a * cos_delta_theta - (frenet_output.ds_dt * frenet_output.ds_dt) * (frenet_output.dl_ds * delta_theta_prime - kappa_l_prime)) / one_minus_kappa_l;
+        ;
+        // 计算dl_dt
+        frenet_output.dl_dt = cartensian_input.speed * sin_delta_theta;
+        // 计算ddl_dt
+        frenet_output.ddl_dt = sin_delta_theta;
+    }
+
+    void Curve::frenet_to_cartensian(const ToCartensianInPutTP &frenet_input, ToCartensianOutTP &cartensian_output)
+    {
+        // 判断s和rs是否足够近
+        if (std::fabs(frenet_input.s - cartensian_output.rs) > delta_s_min)
+        {
+            RCLCPP_ERROR(rclcpp::get_logger("math"), "reference point s and projection rs dont't match! rs = %.2f, s = %.2f", cartensian_output.rs, frenet_input.s);
+            return;
+        }
+        // 计算x y
+        const double cos_theta_r = std::cos(cartensian_output.rtheta);
+        const double sin_theta_r = std::sin(cartensian_output.rtheta);
+        cartensian_output.x = cartensian_output.rx - sin_theta_r * frenet_input.l;
+        cartensian_output.y = cartensian_output.ry + cos_theta_r * frenet_input.l;
+        // 计算theta
+        const double one_minus_kappa_l = 1 - cartensian_output.rkappa * frenet_input.l;
+        const double tan_delta_theta = frenet_input.dl_ds / one_minus_kappa_l;
+        const double delta_theta = std::atan2(frenet_input.dl_ds, one_minus_kappa_l);
+        const double cos_delta_theta = std::cos(delta_theta);
+        cartensian_output.theta = NormalizeAngle(delta_theta + cartensian_output.rtheta);
+        // 计算kappa
+        const double kappa_l_prime = cartensian_output.rdkappa * frenet_input.l + cartensian_output.rkappa * frenet_input.dl_ds;
+        cartensian_output.kappa = ((frenet_input.ddl_ds + kappa_l_prime * tan_delta_theta) * (cos_delta_theta * cos_delta_theta) / one_minus_kappa_l + cartensian_output.rkappa) *
+                                  cos_delta_theta / one_minus_kappa_l;
+        // 计算speed
+        cartensian_output.speed = std::hypot(frenet_input.ds_dt * one_minus_kappa_l, frenet_input.ds_dt);
+        // 计算a
+        const double delta_theta_prime = one_minus_kappa_l / cos_delta_theta * cartensian_output.kappa - cartensian_output.rkappa;
+        cartensian_output.a = frenet_input.dds_dt * one_minus_kappa_l / cos_delta_theta +
+                              (frenet_input.ds_dt * frenet_input.ds_dt) / cos_delta_theta *
+                                  (frenet_input.dl_ds * delta_theta_prime - kappa_l_prime);
+    }
+
     int Curve::find_match_point(const Path &path, const int &last_match_point_index, const PoseStamped &target_point)
     {
         const int path_size = path.poses.size();
@@ -28,6 +107,43 @@ namespace Planning
         }
 
         return closet_index;
+    }
+    int Curve::find_match_point(const Referline &refer_line, const PoseStamped &target_point)
+    {
+        const int path_size = refer_line.refer_line.size();
+        if (path_size <= 1)
+        {
+            return path_size - 1;
+        }
+        double min_dis = std::numeric_limits<double>::max();
+        int closet_index = -1;
+        const int threshould_jump{100};
+        for (int i = 0; i < path_size; i++)
+        {
+            double dis = std::hypot(refer_line.refer_line[i].pose.pose.position.x - target_point.pose.position.x,
+                                    refer_line.refer_line[i].pose.pose.position.y - target_point.pose.position.y);
+            if (dis < min_dis)
+            {
+                min_dis = dis;
+                closet_index = i;
+            }
+        }
+        return closet_index;
+    }
+    void Curve::find_projection_point(const Referline &referline, const PoseStamped &target_point, ToFrenetInPutTP &projection_point)
+    {
+        // 用匹配点近似替代投影点，前提：参考线足够密且平滑
+        const int match_index = find_match_point(referline, target_point);
+        if (match_index < 0)
+        {
+            return;
+        }
+        projection_point.rx = referline.refer_line[match_index].pose.pose.position.x;
+        projection_point.ry = referline.refer_line[match_index].pose.pose.position.y;
+        projection_point.rs = referline.refer_line[match_index].rs;
+        projection_point.rtheta = referline.refer_line[match_index].rtheta;
+        projection_point.rkappa = referline.refer_line[match_index].rkappa;
+        projection_point.rdkappa = referline.refer_line[match_index].rdkappa;
     }
     void Curve::cal_projection_param(Referline &refer_line)
     {

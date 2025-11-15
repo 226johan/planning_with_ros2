@@ -12,10 +12,9 @@ Panels:
         - /Odometry1/Covariance1/Position1
         - /Odometry1/Covariance1/Orientation1
         - /TF1/Tree1
-        - /RobotModel1/Description Topic1
-        - /MarkerArray1
-        - /Marker1
-        - /Path1
+        - /MainCar1/Description Topic1
+        - /ObsCar1
+        - /Reference_line1
       Splitter Ratio: 0.5
     Tree Height: 719
   - Class: rviz_common/Selection
@@ -158,7 +157,19 @@ Visualization Manager:
         All Enabled: true
         base_footprint:
           Value: true
+        base_footprint_obs1:
+          Value: true
+        base_footprint_obs2:
+          Value: true
+        base_footprint_obs3:
+          Value: true
         base_link:
+          Value: true
+        base_link_obs1:
+          Value: true
+        base_link_obs2:
+          Value: true
+        base_link_obs3:
           Value: true
         camera:
           Value: true
@@ -201,6 +212,15 @@ Visualization Manager:
                   {}
               right_rear:
                 {}
+          base_footprint_obs1:
+            base_link_obs1:
+              {}
+          base_footprint_obs2:
+            base_link_obs2:
+              {}
+          base_footprint_obs3:
+            base_link_obs3:
+              {}
       Update Interval: 0
       Value: true
     - Alpha: 1
@@ -275,7 +295,64 @@ Visualization Manager:
       Mass Properties:
         Inertia: false
         Mass: false
-      Name: RobotModel
+      Name: MainCar
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Collision Enabled: false
+      Description File: ""
+      Description Source: Topic
+      Description Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /obs_car/robot_description
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        base_footprint_obs1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_footprint_obs2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_footprint_obs3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_link_obs1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_link_obs2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_link_obs3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        map:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+      Mass Properties:
+        Inertia: false
+        Mass: false
+      Name: ObsCar
       TF Prefix: ""
       Update Interval: 0
       Value: true
@@ -315,7 +392,7 @@ Visualization Manager:
       Length: 0.30000001192092896
       Line Style: Billboards
       Line Width: 0.10000000149011612
-      Name: Path
+      Name: Reference_line
       Offset:
         X: 0
         Y: 0
@@ -379,7 +456,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 27.45943832397461
+      Distance: 38.57853317260742
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -394,7 +471,7 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.874796986579895
+      Pitch: 0.8697969913482666
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
       Yaw: 3.5941572189331055
