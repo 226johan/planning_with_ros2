@@ -35,6 +35,9 @@ namespace Planning
         // 创建参考线和参考线发布器
         refer_line_creator_ = std::make_shared<ReferenceLineCreator>();
         refer_line_pub_ = this->create_publisher<Path>("reference_line", 10);
+
+        // 创建决策器
+        decision_center_ = std::make_shared<DecisionCenter>();
     }
 
     bool PlanningProcess::process() // 总流程
@@ -260,6 +263,7 @@ namespace Planning
                   { return obs1->to_path_frenet_params().s < obs2->to_path_frenet_params().s; });
 
         // 路径决策
+        decision_center_->make_path_decision(car_, obses_);
 
         // 路径规划
 
