@@ -59,13 +59,17 @@ namespace Planning
         static void frenet_to_cartensian(const ToCartensianInPutTP &frenet_input, ToCartensianOutTP &cartensian_output);
 
         // 找匹配点下标
-        static int find_match_point(const Path &path, const int &last_match_point_index, const PoseStamped &target_point);
-        static int find_match_point(const Referline &refer_line, const PoseStamped &target_point);
+        static int find_match_point(const Path &path, const int &last_match_point_index, const PoseStamped &target_point); // 利用上一帧
+        static int find_match_point(const Referline &refer_line, const PoseStamped &target_point);                         // 在参考线上查找匹配点下标
+        static int find_match_point(const LocalPath &path, const PoseStamped &target_point);                               // 在路径上查找匹配点下标
+        static int find_match_point(const Referline &path, const double &rs);                                              // 通过rs查找匹配点下标
 
         // 寻找投影点
         static void find_projection_point(const Referline &referline, const PoseStamped &target_point, ToFrenetInPutTP &projection_point);
+        static void find_projection_point(const LocalPath &path, const PoseStamped &target_point, ToFrenetInPutTP &projection_point);
         // 计算投影点参数
         static void cal_projection_param(Referline &refer_line); // 参考线
+        static void cal_projection_param(LocalPath &local_path); // 路径
     };
 } // namespace Planning
 #endif // CURVE_H_

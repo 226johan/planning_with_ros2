@@ -37,7 +37,12 @@ namespace Planning
         refer_line_pub_ = this->create_publisher<Path>("reference_line", 10);
 
         // 创建决策器
-        decision_center_ = std::make_shared<DecisionCenter>();
+        decider_ = std::make_shared<DecisionCenter>();
+
+        // 创建局部路径规划器和发布器
+        local_path_planner_ = std::make_shared<LocalPathPlanner>();
+        local_speeds_planner_ = std::make_shared<LocalSpeedsPlanner>();
+        local_path_pub_ = this->create_publisher<Path>("local_path", 10);
     }
 
     bool PlanningProcess::process() // 总流程
@@ -241,6 +246,7 @@ namespace Planning
         }
 
         // 参考线
+        // return refer_line_  check ok
         const auto refer_line = refer_line_creator_->create_reference_line(global_path_, car_->loc_point());
         if (refer_line.refer_line.empty())
         {
@@ -263,9 +269,17 @@ namespace Planning
                   { return obs1->to_path_frenet_params().s < obs2->to_path_frenet_params().s; });
 
         // 路径决策
-        decision_center_->make_path_decision(car_, obses_);
+        decider_->make_path_decision(car_, obses_);
 
         // 路径规划
+        const auto local_path = local_path_planner_->creat_local_path(refer_line, car_, decider_); // 生成局部路径
+        if (local_path.local_path.empty())
+        {
+            RCLCPP_ERROR(this->get_logger(), "local path is empty");
+            return;
+        }
+        const auto local_path_rviz = local_path_planner_->path_to_rviz(); // 生成rviz用的局部路径
+        local_path_pub_->publish(local_path_rviz);
 
         // 障碍物向路径投影
 

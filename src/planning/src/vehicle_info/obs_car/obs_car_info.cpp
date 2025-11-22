@@ -38,6 +38,11 @@ namespace Planning
                     point_in_referline.rs, point_in_referline.rx, point_in_referline.ry,
                     point_in_referline.rtheta, point_in_referline.rkappa, point_in_referline.rdkappa);
         // 计算定位点在frent坐标系下的参数
+        point_in_referline.x = loc_point_.pose.position.x;
+        point_in_referline.y = loc_point_.pose.position.y;
+        point_in_referline.speed = speed_;
+        point_in_referline.theta = theta_;
+        point_in_referline.kappa = kappa_;
         Curve::cartensian_to_frenet(point_in_referline, to_path_frenet_params_);
         RCLCPP_INFO(rclcpp::get_logger("vehicle"), "obs_car cartesian_to_frent: s = %f, ds_dt = %f, dds_dt = %f, l = %f, dl_ds = %f, dl_ds = %f, ddl_ds = %f, dl_dt = %f, ddl_dt = %f",
                     to_path_frenet_params_.s, to_path_frenet_params_.ds_dt,
